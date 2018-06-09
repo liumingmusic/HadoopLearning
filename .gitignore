@@ -6,7 +6,7 @@
 *.ear
 
 #kdiff3 ignore
-target/
+*/target/
 
 #eclipse ignore
 .settings/

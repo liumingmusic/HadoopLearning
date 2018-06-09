@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/Hthx_Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/utils/HdfsUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/hdfs/hdfs基础讲解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/Hdfs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hdfs/Hdfs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Hdfs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/Hthx_Hdfs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/Hthx_Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsJavaApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,14 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hthx_Api.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/Hthx_Api.java">
+      <file leaf-file-name="HdfsJavaApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsJavaApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="220" column="91" selection-start-line="220" selection-start-column="91" selection-end-line="220" selection-end-column="91" />
+            <state relative-caret-position="127">
+              <caret line="133" column="60" selection-start-line="133" selection-start-column="60" selection-end-line="133" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hdfs基础讲解.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/hdfs/hdfs基础讲解.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -73,6 +73,10 @@
         <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsBasic.java" />
         <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/utils/HdfsUnit.java" />
         <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/Hthx_Api.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsJavaApi.java" />
+        <option value="$PROJECT_DIR$/doc/hdfs/hdfs基础讲解.md" />
       </list>
     </option>
   </component>
@@ -137,46 +141,12 @@
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="liumm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="liumm" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
               <item name="hdfs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -207,34 +177,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Hthx_Api.moveFile">
+  <component name="RunManager" selected="JUnit.HdfsJavaApi.isServerNormalTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Hthx_Api.catTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hdfs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liumm.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.liumm.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.Hthx_Api" />
-      <option name="METHOD_NAME" value="catTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Hthx_Api.getFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HdfsJavaApi.getFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hdfs" />
       <extension name="coverage">
         <pattern>
@@ -245,7 +192,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.liumm.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.Hthx_Api" />
+      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.HdfsJavaApi" />
       <option name="METHOD_NAME" value="getFSTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -257,7 +204,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Hthx_Api.getFileStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HdfsJavaApi.getFileStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hdfs" />
       <extension name="coverage">
         <pattern>
@@ -268,7 +215,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.liumm.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.Hthx_Api" />
+      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.HdfsJavaApi" />
       <option name="METHOD_NAME" value="getFileStatus" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -280,7 +227,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Hthx_Api.getSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HdfsJavaApi.getSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hdfs" />
       <extension name="coverage">
         <pattern>
@@ -291,7 +238,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.liumm.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.Hthx_Api" />
+      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.HdfsJavaApi" />
       <option name="METHOD_NAME" value="getSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -303,7 +250,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Hthx_Api.moveFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HdfsJavaApi.isServerNormalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hdfs" />
       <extension name="coverage">
         <pattern>
@@ -314,7 +261,30 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.liumm.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.Hthx_Api" />
+      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.HdfsJavaApi" />
+      <option name="METHOD_NAME" value="isServerNormalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HdfsJavaApi.moveFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liumm.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liumm.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.liumm.hdfs.HdfsJavaApi" />
       <option name="METHOD_NAME" value="moveFile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -365,19 +335,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Hthx_Api.catTest" />
-      <item itemvalue="JUnit.Hthx_Api.getFSTest" />
-      <item itemvalue="JUnit.Hthx_Api.getSize" />
-      <item itemvalue="JUnit.Hthx_Api.getFileStatus" />
-      <item itemvalue="JUnit.Hthx_Api.moveFile" />
+      <item itemvalue="JUnit.HdfsJavaApi.getFSTest" />
+      <item itemvalue="JUnit.HdfsJavaApi.getSize" />
+      <item itemvalue="JUnit.HdfsJavaApi.getFileStatus" />
+      <item itemvalue="JUnit.HdfsJavaApi.moveFile" />
+      <item itemvalue="JUnit.HdfsJavaApi.isServerNormalTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Hthx_Api.moveFile" />
-        <item itemvalue="JUnit.Hthx_Api.getFileStatus" />
-        <item itemvalue="JUnit.Hthx_Api.getSize" />
-        <item itemvalue="JUnit.Hthx_Api.getFSTest" />
-        <item itemvalue="JUnit.Hthx_Api.catTest" />
+        <item itemvalue="JUnit.HdfsJavaApi.isServerNormalTest" />
+        <item itemvalue="JUnit.HdfsJavaApi.moveFile" />
+        <item itemvalue="JUnit.HdfsJavaApi.getFileStatus" />
+        <item itemvalue="JUnit.HdfsJavaApi.getSize" />
+        <item itemvalue="JUnit.HdfsJavaApi.getFSTest" />
       </list>
     </recent_temporary>
   </component>
@@ -392,17 +362,11 @@
       <option name="presentableId" value="Default" />
       <updated>1528529377687</updated>
       <workItem from="1528529385876" duration="2290000" />
-      <workItem from="1528531685859" duration="9786000" />
+      <workItem from="1528531685859" duration="10503000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Hthx_Api_catTest - 2018.06.09 at 18h 26m 29s.xml">
-      <configuration name="Hthx_Api.catTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Hthx_Api_getFSTest - 2018.06.09 at 18h 37m 52s.xml">
-      <configuration name="Hthx_Api.getFSTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Hthx_Api_getFSTest - 2018.06.09 at 19h 04m 31s.xml">
       <configuration name="Hthx_Api.getFSTest" configurationId="JUnit" />
     </history-entry>
@@ -427,9 +391,15 @@
     <history-entry file="Hthx_Api_moveFile - 2018.06.09 at 19h 45m 11s.xml">
       <configuration name="Hthx_Api.moveFile" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Hthx_Api_moveFile - 2018.06.09 at 19h 47m 24s.xml">
+      <configuration name="Hthx_Api.moveFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HdfsJavaApi_isServerNormalTest - 2018.06.09 at 19h 57m 19s.xml">
+      <configuration name="HdfsJavaApi.isServerNormalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12076000" />
+    <option name="totallyTimeSpent" value="12793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,12 +424,12 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.3986207" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3986207" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52689654" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2253635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21405493" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,6 +479,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -539,7 +512,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/Hthx_Api.java">
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsJavaApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
@@ -616,13 +589,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/Hthx_Api.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="220" column="91" selection-start-line="220" selection-start-column="91" selection-end-line="220" selection-end-column="91" />
+        <state relative-caret-position="120">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/logs/HadoopLearning.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsJavaApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="133" column="60" selection-start-line="133" selection-start-column="60" selection-end-line="133" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/hdfs/hdfs基础讲解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>

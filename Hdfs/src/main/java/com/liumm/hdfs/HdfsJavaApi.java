@@ -21,7 +21,7 @@ import java.util.Date;
  * @date 2018-06-09 15:35
  */
 @Slf4j
-public class Hthx_Api {
+public class HdfsJavaApi {
 
     FileSystem fileSystem = null;
 
@@ -220,6 +220,20 @@ public class Hthx_Api {
     public void moveFile() throws Exception {
         boolean rename = fileSystem.rename(new Path("/README.MD"), new Path("/com/README.MD"));
         System.out.println(rename);
+    }
+
+    /**
+     * @method  isServerNormalTest
+     * @description 得到scheme
+     * @date: 18/6/9 19:56
+     * @author: liumm
+     * @param
+     * @return void
+     */
+    @Test
+    public void isServerNormalTest() throws Exception {
+        String scheme = fileSystem.getScheme();
+        System.out.println(scheme);
     }
 
     /**
