@@ -27,6 +27,28 @@ public class HdfsBasic {
     //文件系统操作对象
     public static FileSystem fileSystem = null;
 
+    private static HdfsBasic single = null;
+
+    private HdfsBasic() {
+    }
+
+    /**
+     * @param
+     * @return com.liumm.hdfs.HdfsBasic
+     * @method getInstance
+     * @description 单例模式
+     * @date: 18/6/9 20:28
+     * @author: liumm
+     */
+    public static HdfsBasic getInstance() throws Exception {
+        if (null == fileSystem) {
+            single = new HdfsBasic();
+            return single;
+        } else {
+            return single;
+        }
+    }
+
     /**
      * @Description: 初始化hdfs链接对象
      * @param: url 链接的地址

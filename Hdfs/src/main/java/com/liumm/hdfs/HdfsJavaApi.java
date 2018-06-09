@@ -34,8 +34,8 @@ public class HdfsJavaApi {
      */
     @Before
     public void setBefore() throws Exception {
-        HdfsBasic hdfsBasic = new HdfsBasic();
-        fileSystem = hdfsBasic.getHdfsConnection();
+        HdfsBasic instance = HdfsBasic.getInstance();
+        fileSystem = instance.getHdfsConnection();
     }
 
     /**
@@ -223,12 +223,12 @@ public class HdfsJavaApi {
     }
 
     /**
-     * @method  isServerNormalTest
+     * @param
+     * @return void
+     * @method isServerNormalTest
      * @description 得到scheme
      * @date: 18/6/9 19:56
      * @author: liumm
-     * @param
-     * @return void
      */
     @Test
     public void isServerNormalTest() throws Exception {
