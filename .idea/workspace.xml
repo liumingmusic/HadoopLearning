@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/MapReduce/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/hdfs/2.故障读写容错与备份机制.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/hdfs/3.HA高可用与Federation联邦.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/mapreduce/1.执行过程详解.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/mapreduce/2.MR原理解析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/mapreduce/3.分片混洗详解.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/hdfs/hdfs基础讲解.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/hdfs/1.内部结构与读写原理.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +22,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+      <file leaf-file-name="2.故障读写容错与备份机制.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/hdfs/2.故障读写容错与备份机制.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.HA高可用与Federation联邦.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/hdfs/3.HA高可用与Federation联邦.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -135,7 +149,19 @@
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -190,6 +216,17 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc/centos" />
+      <recent name="$PROJECT_DIR$/doc/maven" />
+      <recent name="$PROJECT_DIR$/doc/hdfs" />
+      <recent name="$PROJECT_DIR$/doc/mapreduce" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc/mapreduce" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -359,7 +396,7 @@
       <updated>1528529377687</updated>
       <workItem from="1528529385876" duration="2290000" />
       <workItem from="1528531685859" duration="14383000" />
-      <workItem from="1528884968451" duration="2858000" />
+      <workItem from="1528884968451" duration="3468000" />
     </task>
     <servers />
   </component>
@@ -396,7 +433,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19531000" />
+    <option name="totallyTimeSpent" value="20141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,10 +459,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.26482758" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42482758" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.9751724" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3231018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3529887" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -562,7 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/hdfs/hdfs基础讲解.md">
+    <entry file="file://$PROJECT_DIR$/doc/hdfs/1.内部结构与读写原理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -602,6 +639,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="1620" column="22" selection-start-line="1620" selection-start-column="22" selection-end-line="1620" selection-end-column="22" />
+          <folding>
+            <element signature="e#67889#67890#0" expanded="true" />
+            <element signature="e#67953#67954#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,10 +714,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/mapreduce/1.执行过程详解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="210">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/mapreduce/2.MR原理解析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/mapreduce/3.分片混洗详解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/hdfs/2.故障读写容错与备份机制.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/hdfs/3.HA高可用与Federation联邦.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -697,7 +778,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -757,7 +838,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.google.code.findbugs:jsr305:3.0.0</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
