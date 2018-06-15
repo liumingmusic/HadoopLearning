@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MapReduce" charset="UTF-8" />
   </component>
 </project>
