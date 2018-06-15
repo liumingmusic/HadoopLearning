@@ -21,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="312">
-                <caret line="36" selection-start-line="36" selection-end-line="46" selection-end-column="18" />
+              <first_editor relative-caret-position="183">
+                <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -372,7 +372,7 @@
       <workItem from="1528884968451" duration="3934000" />
       <workItem from="1529052405431" duration="58000" />
       <workItem from="1529052498166" duration="55000" />
-      <workItem from="1529052562137" duration="2525000" />
+      <workItem from="1529052562137" duration="2568000" />
     </task>
     <servers />
   </component>
@@ -409,7 +409,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23245000" />
+    <option name="totallyTimeSpent" value="23288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,7 +435,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.26482758" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48965517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14206897" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.17285945" />
@@ -777,8 +777,8 @@
     <entry file="file://$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="312">
-            <caret line="36" selection-start-line="36" selection-end-line="46" selection-end-column="18" />
+          <first_editor relative-caret-position="183">
+            <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           </first_editor>
           <second_editor />
         </state>
