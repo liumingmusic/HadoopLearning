@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/centos/2.常用管理命令解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/centos/2.常用管理命令解析.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.介绍与安装部署.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md">
+      <file leaf-file-name="2.常用管理命令解析.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/centos/2.常用管理命令解析.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
+              <first_editor relative-caret-position="539">
+                <caret line="243" column="28" selection-start-line="243" selection-start-column="28" selection-end-line="243" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.介绍与安装部署.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="2010">
                 <caret line="134" column="36" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
               </first_editor>
               <second_editor />
@@ -95,6 +107,7 @@
         <option value="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md" />
+        <option value="$PROJECT_DIR$/doc/centos/2.常用管理命令解析.md" />
       </list>
     </option>
   </component>
@@ -182,13 +195,6 @@
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="centos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,7 +384,7 @@
       <workItem from="1529052405431" duration="58000" />
       <workItem from="1529052498166" duration="55000" />
       <workItem from="1529052562137" duration="10116000" />
-      <workItem from="1529140910866" duration="4877000" />
+      <workItem from="1529140910866" duration="10250000" />
     </task>
     <servers />
   </component>
@@ -415,7 +421,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35713000" />
+    <option name="totallyTimeSpent" value="41086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,7 +448,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.26068965" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5117241" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5103448" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.22213247" />
@@ -469,7 +475,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32965517" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22213247" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22213247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32965517" />
@@ -481,7 +487,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32965517" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5117241" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5103448" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
@@ -616,14 +622,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/maven/3.搭建管理与应用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/centos/2.常用管理命令解析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -854,9 +852,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="2010">
             <caret line="134" column="36" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/centos/2.常用管理命令解析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="539">
+            <caret line="243" column="28" selection-start-line="243" selection-start-column="28" selection-end-line="243" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
