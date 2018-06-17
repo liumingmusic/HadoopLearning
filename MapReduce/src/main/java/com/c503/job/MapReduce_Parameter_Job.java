@@ -16,7 +16,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * 描述: 第一个单词计数mr启动端
+ * 描述: 参数传递
  *
  * @Author liumm
  * @UpdateRemark: 更新说明
