@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/doc/centos/3.常用Shell编程命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/centos/3.常用Shell编程命令.md" afterDir="false" />
-    </list>
+    <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Hdfs/target/" />
@@ -16,20 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="3.常用Shell编程命令.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/centos/3.常用Shell编程命令.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="228">
-                <caret line="496" column="29" selection-start-line="496" selection-start-column="29" selection-end-line="496" selection-end-column="29" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,12 +156,6 @@
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="centos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +349,7 @@
       <workItem from="1529052562137" duration="10116000" />
       <workItem from="1529140910866" duration="10537000" />
       <workItem from="1529203390012" duration="1918000" />
-      <workItem from="1529317294624" duration="5285000" />
+      <workItem from="1529317294624" duration="5423000" />
     </task>
     <servers />
   </component>
@@ -407,7 +386,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48576000" />
+    <option name="totallyTimeSpent" value="48714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,7 +399,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32965517" />
@@ -433,10 +411,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.26068965" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.49931034" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.49931034" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27544427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27544427" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -785,8 +763,8 @@
     <entry file="file://$PROJECT_DIR$/doc/centos/3.常用Shell编程命令.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="228">
-            <caret line="496" column="29" selection-start-line="496" selection-start-column="29" selection-end-line="496" selection-end-column="29" />
+          <first_editor relative-caret-position="243">
+            <caret line="497" lean-forward="true" selection-start-line="497" selection-end-line="497" />
           </first_editor>
           <second_editor />
         </state>
