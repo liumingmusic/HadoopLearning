@@ -22,7 +22,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="228">
-                <caret line="496" column="4" selection-start-line="496" selection-start-column="4" selection-end-line="496" selection-end-column="4" />
+                <caret line="496" column="29" selection-start-line="496" selection-start-column="29" selection-end-line="496" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -370,7 +370,7 @@
       <workItem from="1529052562137" duration="10116000" />
       <workItem from="1529140910866" duration="10537000" />
       <workItem from="1529203390012" duration="1918000" />
-      <workItem from="1529317294624" duration="5096000" />
+      <workItem from="1529317294624" duration="5285000" />
     </task>
     <servers />
   </component>
@@ -407,7 +407,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48387000" />
+    <option name="totallyTimeSpent" value="48576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,10 +433,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.26068965" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5006896" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.49931034" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27544427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27544427" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -786,7 +786,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="228">
-            <caret line="496" column="4" selection-start-line="496" selection-start-column="4" selection-end-line="496" selection-end-column="4" />
+            <caret line="496" column="29" selection-start-line="496" selection-start-column="29" selection-end-line="496" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
