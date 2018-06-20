@@ -1,6 +1,7 @@
 package com.c503.job;
 
 import com.c503.mr.MapReduce_Parameter;
+import com.c503.mr.MapReduce_Split;
 import com.c503.utils.Constant;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -14,7 +15,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * 描述:
+ * 描述: 多文件分割
  *
  * @Author liumm
  * @UpdateRemark: 更新说明
@@ -36,21 +37,21 @@ public class MapReduce_Split_Job {
 
         //传递参数
         Configuration conf = new Configuration();
-        conf.set("parameter", "liumm");
 
         // 创建job
         Job job = Job.getInstance(conf, "wordcount");
         job.setJarByClass(MapReduce_Parameter.class);
 
         // 设置map相关参数
-        job.setMapperClass(MapReduce_Parameter.MyMapper.class);
-        job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(LongWritable.class);
+        job.setMapperClass(MapReduce_Split.MyMapper.class);
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(LongWritable.class);
+
+        //设置输出文件的个数，但是文件的个数还需要和输出的key取模分割，如果key都为一样，只有一个文件。
+        job.setNumReduceTasks(3);
 
         // 设置reduce相关参数
-        job.setReducerClass(MapReduce_Parameter.MyReduce.class);
-        job.setOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(LongWritable.class);
+        job.setReducerClass(MapReduce_Split.MyReduce.class);
 
         // 设置作业的输入路径
         FileInputFormat.addInputPath(job, new Path(inputPath));

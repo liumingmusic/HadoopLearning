@@ -7,6 +7,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
+import java.util.StringTokenizer;
 
 /**
  * 描述: 第一个
@@ -33,7 +34,7 @@ public class MapReduce_Sort {
 
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-            String[] strings = value.toString().split(" ");
+            String[] strings = value.toString().split(" \t\n\r\f");
             for (String str : strings) {
                 text.set(str);
                 context.write(text, one);

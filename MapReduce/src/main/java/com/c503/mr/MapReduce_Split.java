@@ -30,20 +30,13 @@ public class MapReduce_Split {
 
         Text text = new Text();
 
-        String parameter;
-
-        @Override
-        protected void setup(Context context) {
-            parameter = context.getConfiguration().get("parameter");
-        }
-
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 
             String[] strings = value.toString().split(" ");
 
             for (String str : strings) {
-                text.set(str + "," + parameter);
+                text.set(str);
                 context.write(text, one);
             }
 
@@ -64,7 +57,11 @@ public class MapReduce_Split {
 
             Long sum = 0L;
 
-            context.write(key, null);
+            for (LongWritable v : values) {
+                sum += v.get();
+            }
+
+            context.write(key, new LongWritable(sum));
 
         }
     }
