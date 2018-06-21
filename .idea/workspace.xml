@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Multi_Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Multi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/images/maven/maven_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/images/maven/maven_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Split_Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Split_Job.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Split.java" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Split.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Parameter_Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Parameter_Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,47 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MapReduce_Sort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapReduce_Split_Job.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Split_Job.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapReduce_Sort_Job.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Sort_Job.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapReduce_Parameter_Job.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Parameter_Job.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapReduce_Basic_Job.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Basic_Job.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+      <file leaf-file-name="1.安装部署基础概念.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="479">
+                <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -88,6 +59,7 @@
       <find>```sbtshell</find>
       <find>```shell</find>
       <find>&quot;../images/centos/</find>
+      <find>log4</find>
     </findStrings>
     <replaceStrings>
       <replace>CustomException</replace>
@@ -100,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/Hdfs.java" />
-        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/Hthx_Hdfs.java" />
         <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/Hthx_Basic.java" />
         <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/HdfsBasic.java" />
         <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/Hthx_Api.java" />
@@ -131,7 +101,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/doc/centos/1.介绍与安装部署.md" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Basic.java" />
-        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Parameter_Job.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/doc/centos/2.常用管理命令解析.md" />
         <option value="$PROJECT_DIR$/doc/centos/3.常用Shell编程命令.md" />
@@ -149,6 +118,11 @@
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Split_Job.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Sort_Job.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Sort.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Parameter_Job.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Multi.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Multi_Job.java" />
+        <option value="$PROJECT_DIR$/docs/images/maven/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md" />
       </list>
     </option>
   </component>
@@ -211,8 +185,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,85 +198,35 @@
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="centos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="c503" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="c503" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="c503" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="c503" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="sort&#9;PSI&#9;JAVA://com.c503.job.MapReduce_Sort_Job&#10;MapreduceSort&#9;RUN_CONFIGURATION&#9;MapReduce_Sort_Job" />
+    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file:///Users/liuxm/A_study/idea_ws/HadoopLearning/pom.xml&#10;sort&#9;PSI&#9;JAVA://com.c503.job.MapReduce_Sort_Job&#10;MapreduceSort&#9;RUN_CONFIGURATION&#9;MapReduce_Sort_Job" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -313,20 +238,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/images/maven" />
+      <recent name="$PROJECT_DIR$/docs/lib" />
+      <recent name="$PROJECT_DIR$/doc/mapreduce" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.c503.mr" />
+      <recent name="com.c503.job" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/MapReduce/src/main/resources" />
       <recent name="$PROJECT_DIR$/doc/centos" />
       <recent name="$PROJECT_DIR$/doc/maven" />
       <recent name="$PROJECT_DIR$/doc/hdfs" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.c503.mr" />
-      <recent name="com.c503.job" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/lib" />
-      <recent name="$PROJECT_DIR$/doc/mapreduce" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -474,7 +400,8 @@
       <workItem from="1529140910866" duration="10537000" />
       <workItem from="1529203390012" duration="1918000" />
       <workItem from="1529317294624" duration="5423000" />
-      <workItem from="1529479234650" duration="6377000" />
+      <workItem from="1529479234650" duration="8868000" />
+      <workItem from="1529559561052" duration="5757000" />
     </task>
     <servers />
   </component>
@@ -511,7 +438,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56567000" />
+    <option name="totallyTimeSpent" value="64815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,7 +455,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32965517" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32965517" />
@@ -541,7 +467,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.46896553" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26655897" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25121164" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -555,33 +481,34 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32965517" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32965517" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.6689655" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32965517" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26655897" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32965517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25121164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32965517" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32965517" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.46896553" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
@@ -624,9 +551,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/doc/mapreduce/1.执行过程详解.md" />
-    <entry file="file://$PROJECT_DIR$/doc/mapreduce/2.MR原理解析.md" />
-    <entry file="file://$PROJECT_DIR$/doc/mapreduce/3.分片混洗详解.md" />
     <entry file="file://$PROJECT_DIR$/doc/hdfs/2.故障读写容错与备份机制.md" />
     <entry file="file://$PROJECT_DIR$/doc/hdfs/3.HA高可用与Federation联邦.md" />
     <entry file="file://$PROJECT_DIR$/doc/SingleNodeCluster.md" />
@@ -717,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="225" column="28" selection-start-line="225" selection-start-column="28" selection-end-line="225" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MapReduce/src/test/java/com/c503/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -769,9 +686,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/docs/.nojekyll">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/_sidebar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -792,67 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_coverpage.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="25" selection-start-column="25" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/__coverpage.md_">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/centos/3.常用Shell编程命令.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="242">
-            <caret line="417" lean-forward="true" selection-start-line="417" selection-end-line="417" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/centos/2.常用管理命令解析.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="3795">
-            <caret line="253" column="28" selection-start-line="253" selection-start-column="28" selection-end-line="253" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/centos/1.介绍与安装部署.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2550">
-            <caret line="170" column="40" selection-start-line="170" selection-start-column="40" selection-end-line="170" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#65#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -867,10 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="347" column="16" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
-          <folding>
-            <element signature="e#12634#12635#0" expanded="true" />
-            <element signature="e#12721#12722#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,24 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Parameter_Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Basic_Job.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Sort_Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -920,17 +759,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="235" column="28" lean-forward="true" selection-start-line="235" selection-start-column="24" selection-end-line="235" selection-end-column="28" />
-          <folding>
-            <element signature="e#7978#7979#0" expanded="true" />
-            <element signature="e#8023#8024#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="379">
+          <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Sort_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Parameter_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Multi_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="48" column="66" lean-forward="true" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/centos/1.介绍与安装部署.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="74">
+            <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/__coverpage.md_">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/_coverpage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="25" selection-start-column="25" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/images/maven/scriptFile.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/centos/3.常用Shell编程命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-7666">
+            <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/centos/2.常用管理命令解析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3333">
+            <caret line="224" selection-start-line="224" selection-end-line="225" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="172" column="25" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="172" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="479">
+            <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
