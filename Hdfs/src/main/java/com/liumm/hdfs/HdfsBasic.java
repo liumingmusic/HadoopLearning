@@ -16,7 +16,7 @@ import java.net.URI;
 public class HdfsBasic {
 
     //链接地址
-    public static final String default_url = "hdfs://hthx205:8020";
+    public static final String default_url = "hdfs://hthx205:8020/";
 
     //访问用户
     public static final String user = "root";
