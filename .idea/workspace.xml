@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbase/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/test/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbase/src/test/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/centos/1.介绍与安装部署.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/centos/1.介绍与安装部署.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,12 +20,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1.介绍与安装部署.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/centos/1.介绍与安装部署.md">
+      <file leaf-file-name="2.常用管理命令解析.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/centos/2.常用管理命令解析.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="2580">
-                <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+              <first_editor relative-caret-position="119">
+                <caret line="224" selection-start-line="224" selection-end-line="225" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.常用Shell编程命令.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/centos/3.常用Shell编程命令.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-11160">
+                <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.内部结构与读写原理.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/hdfs/1.内部结构与读写原理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.框架组件流程调度.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-420">
+                <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.依赖聚合与继承.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.安装部署基础概念.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="555">
+                <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,10 +166,8 @@
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Multi.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Multi_Job.java" />
         <option value="$PROJECT_DIR$/docs/images/maven/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md" />
         <option value="$PROJECT_DIR$/docs/_sidebar.md" />
         <option value="$PROJECT_DIR$/docs/images/yarn/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Hdfs.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Hdfs_Job.java" />
         <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/HdfsBasic.java" />
@@ -127,9 +176,11 @@
         <option value="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/Hbase/src/test/java/App.java" />
-        <option value="$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md" />
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/centos/1.介绍与安装部署.md" />
+        <option value="$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md" />
+        <option value="$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md" />
+        <option value="$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md" />
       </list>
     </option>
   </component>
@@ -214,6 +265,30 @@
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="centos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="yarn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -401,7 +476,7 @@
       <workItem from="1529559561052" duration="8049000" />
       <workItem from="1529590644982" duration="4934000" />
       <workItem from="1529751315571" duration="934000" />
-      <workItem from="1529832247165" duration="7363000" />
+      <workItem from="1529832247165" duration="7532000" />
     </task>
     <servers />
   </component>
@@ -438,7 +513,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80338000" />
+    <option name="totallyTimeSpent" value="80507000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,7 +542,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.46896553" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24232633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24232633" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -520,13 +595,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3.jar!/org/apache/hadoop/mapreduce/lib/map/InverseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MapReduce/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -690,26 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/centos/3.常用Shell编程命令.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-7666">
-            <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/centos/2.常用管理命令解析.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="3333">
-            <caret line="224" selection-start-line="224" selection-end-line="225" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/lib/docsify.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-67290" />
@@ -776,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="555">
-            <caret line="171" selection-start-line="171" selection-end-line="171" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hbase/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -848,26 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="540">
-            <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="584">
-            <caret line="161" column="48" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/_media/data.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -889,6 +907,64 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="2580">
             <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/centos/2.常用管理命令解析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="119">
+            <caret line="224" selection-start-line="224" selection-end-line="225" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/centos/3.常用Shell编程命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-11160">
+            <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/hdfs/1.内部结构与读写原理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-420">
+            <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="555">
+            <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
