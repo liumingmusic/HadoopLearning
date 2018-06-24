@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="_media/favicon.ico">
     <link rel="stylesheet" href="./lib/themes/vue.css">
 </head>
 
@@ -17,29 +18,30 @@
 <div id="app">加载中...</div>
 <script>
     window.$docsify = {
+        auto2top: true,
         loadSidebar: true,
         subMaxLevel: 3,
         name: 'HadoopLearning',
         coverpage: true,
-        logo: '/_media/data.svg',
+        ga: 'UA-106147152-1',
         formatUpdated: '{MM}/{DD} {HH}:{mm}',
         plugins: [
-            function (hook) {
-                var footer = [
-                    '<hr/>',
-                    '<footer>',
-                    '<span><a href="https://github.com/liumingmusic">liumingmusic</a> &copy;2018.</span>',
-                    '<span>published with <a href="https://github.com/liumingmusic/HadoopLearning" target="_blank">HadoopLearning</a>.</span>',
-                    '</footer>'
-                ].join('');
-                hook.afterEach(function (html) {
-                    return html + footer
+            function (hook, vm) {
+                hook.beforeEach(function (html) {
+                    var url = 'https://github.com/liumingmusic/HadoopLearning/tree/master/docs/' + vm.route.file;
+                    var editHtml = '[:memo: 欢迎修正](' + url + ')\n';
+                    return editHtml
+                        + html
+                        + '\n\n----\n\n'
+                        + '<a href="https://github.com/liumingmusic/" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by liumingmusic</a>'
                 })
             }
         ]
     }
 </script>
+<script src="//unpkg.com/docsify-plugin-codefund@1.0.3/index.js"></script>
 <script src="./lib/docsify.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
 <script src="./lib/prismjs/prism-bash.js"></script>
 <script src="./lib/prismjs/prism-java.js"></script>
 <script src="./lib/prismjs/prism-powershell.js"></script>
