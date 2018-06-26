@@ -34,7 +34,7 @@ public class Hbase_Tables extends Hbase_Base {
         //hbase_tables.listTables(admin);
 
         //创建表
-        //hbase_tables.createTable(admin);
+        hbase_tables.createTable(admin);
 
         //禁用表
         //hbase_tables.disableTable(admin);
@@ -49,7 +49,7 @@ public class Hbase_Tables extends Hbase_Base {
         //hbase_tables.descriptor(admin);
 
         //删除表
-        hbase_tables.deleteTable(admin);
+        //hbase_tables.deleteTable(admin);
     }
 
     /**
