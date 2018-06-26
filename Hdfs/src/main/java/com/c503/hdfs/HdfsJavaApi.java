@@ -1,6 +1,6 @@
-package com.liumm.hdfs;
+package com.c503.hdfs;
 
-import com.liumm.utils.HdfsUnit;
+import com.c503.utils.HdfsUnit;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.IOUtils;

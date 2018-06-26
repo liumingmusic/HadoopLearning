@@ -29,7 +29,7 @@
             function (hook, vm) {
                 hook.beforeEach(function (html) {
                     var url = 'https://github.com/liumingmusic/HadoopLearning/tree/master/docs/' + vm.route.file;
-                    var editHtml = '[:memo: 欢迎修正](' + url + ')\n';
+                    var editHtml = '[欢迎修正](' + url + ')\n';
                     return editHtml
                         + html
                         + '\n\n----\n\n'
@@ -41,7 +41,6 @@
 </script>
 <script src="./lib/index.js"></script>
 <script src="./lib/docsify.js"></script>
-<script src="./lib/ga.min.js"></script>
 <script src="./lib/prismjs/prism-bash.js"></script>
 <script src="./lib/prismjs/prism-java.js"></script>
 <script src="./lib/prismjs/prism-powershell.js"></script>

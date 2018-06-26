@@ -1,6 +1,6 @@
-package com.liumm.hdfs;
+package com.c503.hdfs;
 
-import com.liumm.exception.CustomException;
+import com.c503.exception.CustomException;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 

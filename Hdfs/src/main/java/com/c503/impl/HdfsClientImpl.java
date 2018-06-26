@@ -1,7 +1,7 @@
-package com.liumm.impl;
+package com.c503.impl;
 
-import com.liumm.exception.CustomException;
-import com.liumm.hdfs.HdfsBasic;
+import com.c503.exception.CustomException;
+import com.c503.hdfs.HdfsBasic;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.fs.FSDataInputStream;

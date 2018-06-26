@@ -57,7 +57,7 @@
 **mvn clean package -pb** (打包使用不用环境下面的配置文件)
 
 ### 2、jar包运行(没有pom文件配置assembly)
-**java -cp hello_world-1.0-SNAPSHOT.jar com.liumm.hello.App**
+**java -cp hello_world-1.0-SNAPSHOT.jar com.liumm.hello.com.c503.base.Hbase_Base**
 
 ### 3、私服搭建
 下载私服ß
