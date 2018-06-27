@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_media/data.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/maven/3.搭建管理与应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/maven/3.搭建管理与应用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,27 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="3.搭建管理与应用.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/maven/3.搭建管理与应用.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="420">
-                <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Hbase_Data.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="405" column="29" lean-forward="true" selection-start-line="393" selection-start-column="4" selection-end-line="405" selection-end-column="29" />
-              <folding>
-                <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#build#0;n#project#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="328">
+              <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -142,8 +124,8 @@
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Namespace.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Tables.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java" />
         <option value="$PROJECT_DIR$/docs/maven/3.搭建管理与应用.md" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java" />
       </list>
     </option>
   </component>
@@ -208,6 +190,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,25 +203,56 @@
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="c503" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="c503" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file:///Users/liuxm/A_study/idea_ws/HadoopLearning/pom.xml&#10;pom&#9;FILE&#9;file:///Users/liuxm/A_study/idea_ws/HadoopLearning/pom.xml&#10;sort&#9;PSI&#9;JAVA://com.c503.job.MapReduce_Sort_Job&#10;MapreduceSort&#9;RUN_CONFIGURATION&#9;MapReduce_Sort_Job" />
+    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file:///Users/liuxm/A_study/idea_ws/HadoopLearning/Hbase/pom.xml&#10;pom.xml&#9;FILE&#9;file:///Users/liuxm/A_study/idea_ws/HadoopLearning/pom.xml&#10;sort&#9;PSI&#9;JAVA://com.c503.job.MapReduce_Sort_Job&#10;MapreduceSort&#9;RUN_CONFIGURATION&#9;MapReduce_Sort_Job" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -419,7 +435,8 @@
       <workItem from="1529832247165" duration="8573000" />
       <workItem from="1529921748445" duration="6315000" />
       <workItem from="1529993643162" duration="7246000" />
-      <workItem from="1530020508279" duration="5090000" />
+      <workItem from="1530020508279" duration="5186000" />
+      <workItem from="1530095234639" duration="2805000" />
     </task>
     <servers />
   </component>
@@ -456,7 +473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100199000" />
+    <option name="totallyTimeSpent" value="103100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,70 +485,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="575" y="0" width="705" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32965517" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32965517" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.54344827" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25942686" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.48" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26332796" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32965517" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32965517" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32965517" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.54344827" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32965517" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25942686" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32965517" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32965517" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
-      <window_info id="Favorites" order="5" side_tool="true" weight="0.32956383" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -854,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Namespace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -917,16 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_media/data.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -951,10 +921,31 @@
     <entry file="file://$PROJECT_DIR$/docs/maven/3.搭建管理与应用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="420">
+          <first_editor relative-caret-position="108">
             <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2.jar!/org/apache/hadoop/hbase/client/Put.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="113" column="56" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
         </state>
       </provider>
     </entry>
