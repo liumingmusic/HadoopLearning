@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/coprocessor/observer/Hbase_RegionObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Hbase/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hbase_Data.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java">
+      <file leaf-file-name="Hbase_RegionObserver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/coprocessor/observer/Hbase_RegionObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+            <state relative-caret-position="405">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#2054#2055#0" expanded="true" />
+                <element signature="e#2089#2090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hbase_Base.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -75,9 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MapReduce/pom.xml" />
-        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/MapReduce_01.java" />
-        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_01.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_01_Job.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/job/MapReduce_Basic_Job.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Parameter.java" />
@@ -118,7 +130,6 @@
         <option value="$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md" />
         <option value="$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md" />
         <option value="$PROJECT_DIR$/docs/index.html" />
-        <option value="$PROJECT_DIR$/Hbase/pom.xml" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/HbaseBase.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/HbaseBase.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java" />
@@ -126,6 +137,10 @@
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Tables.java" />
         <option value="$PROJECT_DIR$/docs/maven/3.搭建管理与应用.md" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java" />
+        <option value="$PROJECT_DIR$/Hbase/pom.xml" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/coprocessor/HbaseRegionObserver.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/coprocessor/observer/HbaseRegionObserver.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/coprocessor/observer/Hbase_RegionObserver.java" />
       </list>
     </option>
   </component>
@@ -243,7 +258,39 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="c503" type="462c0819:PsiDirectoryNode" />
+              <item name="coprocessor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="c503" type="462c0819:PsiDirectoryNode" />
+              <item name="coprocessor" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="c503" type="462c0819:PsiDirectoryNode" />
               <item name="hbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,7 +483,7 @@
       <workItem from="1529921748445" duration="6315000" />
       <workItem from="1529993643162" duration="7246000" />
       <workItem from="1530020508279" duration="5186000" />
-      <workItem from="1530095234639" duration="2805000" />
+      <workItem from="1530095234639" duration="7002000" />
     </task>
     <servers />
   </component>
@@ -473,7 +520,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103100000" />
+    <option name="totallyTimeSpent" value="107297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,10 +553,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32965517" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.17931035" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.48" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26332796" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33360258" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32956383" />
@@ -519,6 +566,38 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.17931035" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.48" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33360258" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32965517" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -571,7 +650,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/doc/centos/3.常用Shell编程命令.md" />
     <entry file="file://$PROJECT_DIR$/docs/_navbar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -746,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hdfs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MapReduce/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -869,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Scan_Filter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -928,13 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2.jar!/org/apache/hadoop/hbase/client/Put.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -944,8 +1001,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+        <state>
+          <caret line="145" selection-start-line="145" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/coprocessor/observer/Hbase_RegionObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
