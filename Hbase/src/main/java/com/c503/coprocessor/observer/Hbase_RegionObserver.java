@@ -19,19 +19,18 @@ import java.io.IOException;
  * 描述: Region协处理器，操作表时，往日志表中写数据。类似数据库中的触发器
  * 配置说明：
  * 修改hbase-site.xml，添加如下
- *      通过hbase.coprocessor.region.classes 配置 RegionObservers 和 Endpoints.
- *      通过hbase.coprocessor.wal.classes 配置 WALObservers.
- *      通过hbase.coprocessor.master.classes 配置MasterObservers.
+ * 通过hbase.coprocessor.region.classes 配置 RegionObservers 和 Endpoints.
+ * 通过hbase.coprocessor.wal.classes 配置 WALObservers.
+ * 通过hbase.coprocessor.master.classes 配置MasterObservers.
  *
  * <property>
- *     <name>hbase.coprocessor.region.classes</name>
- *     <value>com.c503.coprocessor.observer.Hbase_RegionObserver</value>
+ * <name>hbase.coprocessor.region.classes</name>
+ * <value>com.c503.coprocessor.observer.Hbase_RegionObserver</value>
  * </property>
  * <property>
- *     <name>hbase.coprocessor.master.classes</name>
- *     <value>com.c503.coprocessor.observer.Hbase_MasterObserver</value>
+ * <name>hbase.coprocessor.master.classes</name>
+ * <value>com.c503.coprocessor.observer.Hbase_MasterObserver</value>
  * </property>
- *
  *
  * @Author liumm
  * @UpdateRemark: 更新说明
@@ -80,7 +79,7 @@ public class Hbase_RegionObserver extends BaseRegionObserver {
     }
 
     @Override
-    public void postOpen(ObserverContext<RegionCoprocessorEnvironment> e) {
+    public void postPut(ObserverContext<RegionCoprocessorEnvironment> e, Put put, WALEdit edit, Durability durability) throws IOException {
         this.putLog(e, "P");
     }
 

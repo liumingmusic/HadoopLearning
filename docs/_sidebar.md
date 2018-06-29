@@ -14,13 +14,20 @@
   * [HA高可用与Federation联邦](hdfs/3.HA高可用与Federation联邦)
   * [使用api操作hdfs](hdfs/4.使用api操作hdfs)
 
-* [hadoop伪分布搭建](SingleNodeCluster)
-  
+* yarn
+  * [框架组件流程调度](yarn/1.框架组件流程调度)
+
 * mapReduce
   * [执行过程详解](mapreduce/1.执行过程详解)
   * [MR原理解析](mapreduce/2.MR原理解析)
   * [分片混洗详解](mapreduce/3.分片混洗详解)
   * [编程模型](mapreduce/4.编程模型)
-  
-* yarn
-  * [框架组件流程调度](yarn/1.框架组件流程调度)
+
+* hbase
+  * [模型坐标结构访问场景](hbase/1.模型坐标结构访问场景)
+  * [合并分裂数据定位](hbase/2.合并分裂数据定位)
+  * [Hbase部署](hbase/3.Hbase部署)
+  * [shell操作Hbase](hbase/4.shell操作Hbase)
+  * [使用Java Api操作](hbase/5.使用Java%20Api操作)
+  * [Hbase协处理器](hbase/6.Hbase协处理器)
+  * [Hbase的rowkey设计原则](hbase/7.Hbase的rowkey设计原则)
