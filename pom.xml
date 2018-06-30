@@ -13,6 +13,7 @@
         <module>Hdfs</module>
         <module>MapReduce</module>
         <module>Hbase</module>
+        <module>StageOnePractice</module>
     </modules>
 
     <properties>

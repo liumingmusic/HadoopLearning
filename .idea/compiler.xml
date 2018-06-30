@@ -9,6 +9,7 @@
         <module name="Hbase" />
         <module name="Hdfs" />
         <module name="MapReduce" />
+        <module name="StageOnePractice" />
       </profile>
     </annotationProcessing>
   </component>

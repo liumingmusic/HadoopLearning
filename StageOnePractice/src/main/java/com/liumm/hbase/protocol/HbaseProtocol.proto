@@ -1,0 +1,18 @@
+option java_package = "com.liumm.hbase.endpiont";
+option java_outer_classname = "HbaseProtocol";
+option java_generic_services = true;
+option java_generate_equals_and_hash = true;
+option optimize_for = SPEED;
+
+message C503HbaseRequest {
+    optional string jsonStr = 1;
+}
+
+message C503HbaseResponse {
+	optional string result = 1;
+}
+
+service C503HbaseQueryService {
+  rpc query(C503HbaseRequest)
+    returns (C503HbaseResponse);
+}
