@@ -20,6 +20,10 @@ import java.util.Map;
 @Slf4j
 public class Main {
 
+    private static HdfsPutFile hdfsPutFile = new HdfsPutFile();
+    private static HbaseSearch hbaseSearch = new HbaseSearch();
+    private static MapReduceJsonJob mapReduceJsonJob = new MapReduceJsonJob();
+
     /**
      * @param args
      * @return void
@@ -29,29 +33,31 @@ public class Main {
      * @author: liumm
      */
     public static void main(String[] args) throws Exception {
-        //hdfs上传文件
+        //1、hdfs上传文件
         if (args[0].equalsIgnoreCase("hdfs")) {
             if (args.length == 3) {
-                HdfsPutFile.putFileToHDFS(args[1], args[2]);
+                hdfsPutFile.putFileToHDFS(args[1], args[2]);
                 log.info("上传文件成功");
             } else {
                 log.error("输入的参数有误");
             }
         }
-        //写入数据到hbase
+        //2、写入数据到hbase
         else if (args[0].equalsIgnoreCase("mr")) {
-            MapReduceJsonJob.run(args[1], args[2]);
-        } else if (args[0].equalsIgnoreCase("hbase")) {
-            //查询单个的省下面的信息
+            mapReduceJsonJob.run(args[1], args[2]);
+        }
+        //3、查询hbase数据
+        else if (args[0].equalsIgnoreCase("hbase")) {
+            //3.1、查询单个的省下面的信息
             if (args.length == 2) {
-                List<City> cityList = HbaseSearch.getCityList(args[1]);
+                List<City> cityList = hbaseSearch.getCityList(args[1]);
                 for (City c : cityList) {
                     System.out.println(c);
                 }
             }
-            //查询多个的和
+            //3.2、查询多个的和
             else {
-                Map<String, Long> count = HbaseSearch.getCountByParent(Main.deleteFirst(args));
+                Map<String, Long> count = hbaseSearch.getCountByParent(Main.deleteFirst(args));
                 for (Map.Entry<String, Long> map : count.entrySet()) {
                     System.out.println("地区编号：" + map.getKey() + ";地区个数：" + map.getValue());
                 }

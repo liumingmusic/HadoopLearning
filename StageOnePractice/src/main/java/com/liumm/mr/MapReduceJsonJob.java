@@ -21,8 +21,16 @@ import java.io.IOException;
  */
 public class MapReduceJsonJob {
 
-
-    public static void run(String src, String dest) throws IOException, ClassNotFoundException, InterruptedException {
+    /**
+     * @param src
+     * @param dest
+     * @return void
+     * @method run
+     * @description 启动任务mr文件json写入数据到hbase
+     * @date: 18/7/2 11:19
+     * @author: liumm
+     */
+    public void run(String src, String dest) throws IOException, ClassNotFoundException, InterruptedException {
 
         // 创建job
         Configuration configuration = new Configuration();

@@ -25,7 +25,7 @@ import java.io.IOException;
  * @Version: 1.0
  * @Date 2018-06-13 20:33
  */
-public class MapReduceJson extends HbaseBase {
+public class MapReduceJson {
 
     /**
      * @method
@@ -36,14 +36,15 @@ public class MapReduceJson extends HbaseBase {
      */
     public static class JSONMapper extends Mapper<LongWritable, Text, LongWritable, City> {
 
+        private HbaseBase hbaseBase = HbaseBase.getInstance();
         private Connection connection = null;
         private Table table;
 
+
         @Override
         protected void setup(Context context) throws IOException {
-            MapReduceJson mapReduceJson = new MapReduceJson();
             try {
-                connection = mapReduceJson.connectToHbase(hbaseMasterIPS, hbaseMasterPort, hbaseZnode);
+                connection = hbaseBase.connectionDefault();
                 table = connection.getTable(TableName.valueOf("city"));
             } catch (CustomException e) {
                 e.printStackTrace();
@@ -68,7 +69,7 @@ public class MapReduceJson extends HbaseBase {
         }
 
         @Override
-        protected void cleanup(Context context) throws IOException, InterruptedException {
+        protected void cleanup(Context context) throws IOException {
             table.close();
             connection.close();
         }

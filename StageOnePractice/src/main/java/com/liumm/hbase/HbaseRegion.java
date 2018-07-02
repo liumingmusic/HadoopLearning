@@ -20,7 +20,9 @@ import java.io.IOException;
  * @Version: 1.0
  * @Date 2018-06-30 13:14
  */
-public class HbaseRegion extends HbaseBase {
+public class HbaseRegion {
+
+    private HbaseBase hbaseBase = HbaseBase.getInstance();
 
     /***
      * @method createTables
@@ -30,8 +32,8 @@ public class HbaseRegion extends HbaseBase {
      * @param tableName
      * @return void
      */
-    public static void createTables(String tableName) throws IOException, CustomException {
-        Connection connection = HbaseBase.connectToHbase(hbaseMasterIPS, hbaseMasterPort, hbaseZnode);
+    public void createTables(String tableName) throws IOException, CustomException {
+        Connection connection = hbaseBase.connectionDefault();
         Admin admin = connection.getAdmin();
         //创建表
         HTableDescriptor htable = new HTableDescriptor(TableName.valueOf(tableName));
@@ -54,10 +56,6 @@ public class HbaseRegion extends HbaseBase {
 
         //创建分区
         admin.createTable(htable, splitKeyBytes);
-    }
-
-    public static void main(String[] args) throws IOException, CustomException {
-        HbaseRegion.createTables("city");
     }
 
 }

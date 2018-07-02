@@ -55,7 +55,6 @@ public class HbaseEndPoint extends HbaseProtocol.C503HbaseQueryService implement
         } else {
             throw new CoprocessorException("Must be loaded on a table region!");
         }
-
     }
 
     @Override

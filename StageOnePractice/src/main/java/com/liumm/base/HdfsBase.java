@@ -13,7 +13,7 @@ import java.net.URI;
  * @author liumm
  * @date 2018-06-09 17:57
  */
-public class HdfsBasic {
+public class HdfsBase {
 
     //链接地址
     public static final String default_url = "hdfs://hthx205:8020/";
@@ -27,26 +27,24 @@ public class HdfsBasic {
     //文件系统操作对象
     public static FileSystem fileSystem = null;
 
-    private static HdfsBasic single = null;
+    private static HdfsBase single = null;
 
-    private HdfsBasic() {
+    private HdfsBase() {
     }
 
     /**
      * @param
-     * @return com.liumm.hdfs.HdfsBasic
+     * @return com.liumm.hdfs.HdfsBase
      * @method getInstance
      * @description 单例模式
      * @date: 18/6/9 20:28
      * @author: liumm
      */
-    public static HdfsBasic getInstance() throws Exception {
+    public static HdfsBase getInstance() {
         if (null == fileSystem) {
-            single = new HdfsBasic();
-            return single;
-        } else {
-            return single;
+            single = new HdfsBase();
         }
+        return single;
     }
 
     /**

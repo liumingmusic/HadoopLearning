@@ -29,6 +29,32 @@ public class HbaseBase {
 
     private static Configuration conf;
 
+    private static HbaseBase instance = null;
+
+    private HbaseBase() {
+
+    }
+
+    public static HbaseBase getInstance() {
+        if (instance == null) {
+            instance = new HbaseBase();
+        }
+        return instance;
+    }
+
+    /**
+     * @param
+     * @return org.apache.hadoop.hbase.client.Connection
+     * @method connectionDefault
+     * @description 默认链接
+     * @date: 18/7/2 11:08
+     * @author: liumm
+     */
+    public Connection connectionDefault() throws IOException, CustomException {
+        Connection connection = this.connectSingle(HbaseBase.hbaseMasterIPS, HbaseBase.hbaseMasterPort, HbaseBase.hbaseZnode);
+        return connection;
+    }
+
     /**
      * @param zkIps  Hbase所依赖的Zookeeper集群的IP
      * @param zkPort Zookeeper集群的IP
@@ -39,7 +65,7 @@ public class HbaseBase {
      * @date: 18/6/25 19:58
      * @author: liumm
      */
-    public static Connection connect(ArrayList<String> zkIps, int zkPort, String znode) throws IOException, CustomException {
+    public Connection connectCluster(ArrayList<String> zkIps, int zkPort, String znode) throws IOException, CustomException {
         String zkIp = "";
         if (zkIps != null && zkIps.size() > 0) {
             for (String ip : zkIps) {
@@ -49,7 +75,7 @@ public class HbaseBase {
                 zkIp = zkIp.substring(0, zkIp.length() - 1);
             }
         }
-        return HbaseBase.connectToHbase(zkIp, zkPort, znode);
+        return this.connectSingle(zkIp, zkPort, znode);
     }
 
     /**
@@ -62,7 +88,7 @@ public class HbaseBase {
      * @date: 18/6/25 19:59
      * @author: liumm
      */
-    public static Connection connectToHbase(String zkIps, int zkPort, String znode) throws CustomException, IOException {
+    public Connection connectSingle(String zkIps, int zkPort, String znode) throws CustomException, IOException {
         Connection connect;
         if (!"".equals(zkIps)) {
             Configuration that = new Configuration();
@@ -80,40 +106,4 @@ public class HbaseBase {
         return connect;
     }
 
-    /**
-     * 获取Hbase集群配置
-     *
-     * @return Hbase集群配置
-     * @author dtinone--加米谷大数据学院
-     */
-    public static Configuration getConf() {
-        return conf;
-    }
-
-    /**
-     * @param obj
-     * @return byte[]
-     * @method objectToByte
-     * @description 对象转换
-     * @date: 18/6/25 20:00
-     * @author: liumm
-     */
-    protected static byte[] objectToByte(Object obj) {
-        byte[] bytes = null;
-        if (obj.getClass() == String.class) {
-            return ((String) obj).getBytes();
-        }
-        try {
-            ByteArrayOutputStream bo = new ByteArrayOutputStream();
-            ObjectOutputStream oo = new ObjectOutputStream(bo);
-            oo.writeObject(obj);
-            bytes = bo.toByteArray();
-            bo.close();
-            oo.close();
-        } catch (Exception e) {
-            System.out.println("translation" + e.getMessage());
-            e.printStackTrace();
-        }
-        return bytes;
-    }
 }

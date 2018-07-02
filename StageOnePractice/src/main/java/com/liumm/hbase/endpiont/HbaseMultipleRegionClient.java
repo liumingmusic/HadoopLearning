@@ -19,7 +19,7 @@ import java.util.Map;
  * @Version: 1.0
  * @Date 2018-06-30 18:18
  */
-public class HbaseMultipleRegionClient extends HbaseBase {
+public class HbaseMultipleRegionClient {
 
     public void callCoprocessor(Table table, String... parentIds) throws Exception {
 

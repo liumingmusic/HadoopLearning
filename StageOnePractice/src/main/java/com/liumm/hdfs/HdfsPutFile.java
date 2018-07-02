@@ -1,6 +1,6 @@
 package com.liumm.hdfs;
 
-import com.liumm.base.HdfsBasic;
+import com.liumm.base.HdfsBase;
 import com.liumm.exception.CustomException;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
@@ -19,6 +19,8 @@ public class HdfsPutFile {
 
     private static FileSystem fileSystem = null;
 
+    private HdfsBase instance = HdfsBase.getInstance();
+
     /**
      * @param src  原路径
      * @param dest 目的路径
@@ -28,8 +30,7 @@ public class HdfsPutFile {
      * @date: 18/6/30 12:55
      * @author: liumm
      */
-    public static void putFileToHDFS(String src, String dest) throws Exception {
-        HdfsBasic instance = HdfsBasic.getInstance();
+    public void putFileToHDFS(String src, String dest) throws Exception {
         fileSystem = instance.getHdfsConnection();
         //1、地址对象
         Path srcPath = new Path(src);
