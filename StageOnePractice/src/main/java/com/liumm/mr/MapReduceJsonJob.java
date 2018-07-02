@@ -1,5 +1,7 @@
 package com.liumm.mr;
 
+import com.liumm.exception.CustomException;
+import com.liumm.hbase.HbaseRegion;
 import com.liumm.utils.Constant;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -21,6 +23,8 @@ import java.io.IOException;
  */
 public class MapReduceJsonJob {
 
+    private HbaseRegion hbaseRegion = new HbaseRegion();
+
     /**
      * @param src
      * @param dest
@@ -30,7 +34,10 @@ public class MapReduceJsonJob {
      * @date: 18/7/2 11:19
      * @author: liumm
      */
-    public void run(String src, String dest) throws IOException, ClassNotFoundException, InterruptedException {
+    public void run(String src, String dest) throws IOException, ClassNotFoundException, InterruptedException, CustomException {
+
+        // 创建表
+        hbaseRegion.createTables("city");
 
         // 创建job
         Configuration configuration = new Configuration();
@@ -50,7 +57,7 @@ public class MapReduceJsonJob {
         // 提交作业
         job.waitForCompletion(true);
 
-        //推出程序
+        // 推出程序
         System.exit(job.waitForCompletion(true) ? 1 : 0);
     }
 

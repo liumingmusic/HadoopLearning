@@ -3,7 +3,6 @@ package com.liumm.hbase.endpiont;
 import com.google.protobuf.RpcCallback;
 import com.google.protobuf.RpcController;
 import com.google.protobuf.Service;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.hbase.Cell;
 import org.apache.hadoop.hbase.Coprocessor;
 import org.apache.hadoop.hbase.CoprocessorEnvironment;
@@ -27,7 +26,6 @@ import java.util.List;
  * @Version: 1.0
  * @Date 2018-06-30 18:24
  */
-@Slf4j
 public class HbaseEndPoint extends HbaseProtocol.C503HbaseQueryService implements Coprocessor,
         CoprocessorService {
 
@@ -48,7 +46,7 @@ public class HbaseEndPoint extends HbaseProtocol.C503HbaseQueryService implement
 
     @Override
     public void start(CoprocessorEnvironment evn) throws IOException {
-        log.info("HbaseEndPoint.start...");
+        System.out.println("HbaseEndPoint.start...");
         if (evn instanceof RegionCoprocessorEnvironment) {
             this.environment = (RegionCoprocessorEnvironment) evn;
 
@@ -59,7 +57,7 @@ public class HbaseEndPoint extends HbaseProtocol.C503HbaseQueryService implement
 
     @Override
     public void stop(CoprocessorEnvironment coprocessorEnvironment) throws IOException {
-        log.info("HbaseEndPoint.stop...");
+        System.out.println("HbaseEndPoint.stop...");
     }
 
     /**

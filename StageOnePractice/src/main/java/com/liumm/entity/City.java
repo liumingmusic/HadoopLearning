@@ -53,15 +53,6 @@ public class City implements Writable {
 
     public String getAreaId() {
         //规定area长度为6，不足添加0对齐
-        if (parentId.length() == 6) {
-            return parentId;
-        } else {
-            return String.format("%0" + 6 + "d", Integer.parseInt(parentId));
-        }
-    }
-
-    public String getParentId() {
-        //规定area长度为6，不足添加0对齐
         if (areaId.length() == 6) {
             return areaId;
         } else {
@@ -69,8 +60,20 @@ public class City implements Writable {
         }
     }
 
+    public String getParentId() {
+        //规定area长度为6，不足添加0对齐
+        if (parentId.length() == 6) {
+            return parentId;
+        } else {
+            return String.format("%0" + 6 + "d", Integer.parseInt(parentId));
+        }
+    }
+
     public String getAreaName() {
         return areaName;
+    }
+
+    public City() {
     }
 
     public City(String areaId, String parentId, String areaName) {

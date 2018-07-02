@@ -4,9 +4,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.liumm.base.HbaseBase;
 import com.liumm.entity.City;
 import com.liumm.exception.CustomException;
-import com.liumm.hbase.HbaseRegion;
 import org.apache.hadoop.hbase.TableName;
-import org.apache.hadoop.hbase.client.Admin;
 import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Table;
@@ -56,7 +54,7 @@ public class MapReduceJson {
             //1、转换为对象，同时动态补齐areaID
             City city = JSONArray.parseObject(value.toString(), City.class);
             //2、组装rowkey
-            String rowkey = city.getAreaId() + "|" + city.getParentId();
+            String rowkey = city.getParentId() + "|" + city.getAreaId();
             //3、组装Hbase put对象
             Put put = new Put(Bytes.toBytes(rowkey));
             put.addColumn(Bytes.toBytes("cfn"), Bytes.toBytes("areaId"), Bytes.toBytes(city.getAreaId()));
@@ -65,7 +63,6 @@ public class MapReduceJson {
             //4、写入到Hbase中
             //FIXME 可以修改成批量写入，而不是每次解析都写入
             table.put(put);
-            context.write(null, null);
         }
 
         @Override

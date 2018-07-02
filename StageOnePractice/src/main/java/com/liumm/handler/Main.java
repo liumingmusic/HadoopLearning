@@ -4,7 +4,6 @@ import com.liumm.entity.City;
 import com.liumm.hbase.HbaseSearch;
 import com.liumm.hdfs.HdfsPutFile;
 import com.liumm.mr.MapReduceJsonJob;
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 import java.util.Map;
@@ -17,11 +16,12 @@ import java.util.Map;
  * @Version: 1.0
  * @Date 2018-06-30 17:18
  */
-@Slf4j
 public class Main {
 
     private static HdfsPutFile hdfsPutFile = new HdfsPutFile();
+
     private static HbaseSearch hbaseSearch = new HbaseSearch();
+
     private static MapReduceJsonJob mapReduceJsonJob = new MapReduceJsonJob();
 
     /**
@@ -37,9 +37,9 @@ public class Main {
         if (args[0].equalsIgnoreCase("hdfs")) {
             if (args.length == 3) {
                 hdfsPutFile.putFileToHDFS(args[1], args[2]);
-                log.info("上传文件成功");
+                System.out.println("上传成功");
             } else {
-                log.error("输入的参数有误");
+                System.out.println("输入的参数有误");
             }
         }
         //2、写入数据到hbase
@@ -63,7 +63,7 @@ public class Main {
                 }
             }
         } else {
-            log.error("输入有误");
+            System.out.println("输入有误");
         }
     }
 
