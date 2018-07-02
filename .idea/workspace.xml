@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StageOnePractice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/entity/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJsonJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJsonJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,47 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java">
+      <file leaf-file-name="HdfsBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HbaseSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HbaseRegion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapReduceJson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+            <state relative-caret-position="764">
+              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,17 +61,57 @@
       <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/entity/City.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="58" column="72" selection-start-line="58" selection-start-column="72" selection-end-line="58" selection-end-column="72" />
+            <state relative-caret-position="571">
+              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+              <folding>
+                <element signature="e#1894#1895#0" expanded="true" />
+                <element signature="e#2004#2005#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java">
+      <file leaf-file-name="HbaseEndPoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="163">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HbaseMultipleRegionClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseMultipleRegionClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HbaseProtocol.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseProtocol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6120">
+              <caret line="448" column="37" selection-start-line="448" selection-start-column="37" selection-end-line="448" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HbaseSingleRegionClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HbaseRegion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="674">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +119,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapReduceJsonJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJsonJob.java">
+      <file leaf-file-name="HbaseSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="675">
+              <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HdfsPutFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hdfs/HdfsPutFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapReduceJson.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +174,6 @@
       <find>&lt;groupId&gt;org.apache.hadoop&lt;/groupId&gt;</find>
       <find>hadoop-mapreduce-client-hs</find>
       <find>hadoop-mapreduce-client-core</find>
-      <find>hadoop-mapreduce-client-app</find>
       <find>#!/bin/bash</find>
       <find>```sbtshell</find>
       <find>```shell</find>
@@ -155,13 +182,19 @@
       <find>/HadoopLearning/</find>
       <find>src=&quot;</find>
       <find>alt=&quot;还在路上，稍等...&quot;</find>
-      <find />
-      <find />
+      <find>&lt;img src=&quot;(.*jpg)&quot;</find>
+      <find>&lt;img src=&quot;</find>
       <find>000000</find>
       <find>ndsaAppender</find>
       <find>hbase-protocol</find>
       <find>HbaseEndPoint</find>
       <find>130000</find>
+      <find>maven-assembly-plugin</find>
+      <find>sourceEncoding</find>
+      <find>hbase-client</find>
+      <find>hbase-server</find>
+      <find>hbase-</find>
+      <find>hadoop-mapreduce-client-app</find>
     </findStrings>
     <replaceStrings>
       <replace>CustomException</replace>
@@ -178,7 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/Hbase/src/test/java/App.java" />
         <option value="$PROJECT_DIR$/docs/centos/1.介绍与安装部署.md" />
         <option value="$PROJECT_DIR$/docs/maven/1.安装部署基础概念.md" />
@@ -214,21 +246,22 @@
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/protocol/scriptFile.scala" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/protocol/DtinoneProtocol.proto" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseProtocol.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseMultipleRegionClient.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hdfs/HdfsPutFile.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/pom.xml" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/Main.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJsonJob.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/entity/City.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/StageOnePractice/pom.xml" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java" />
       </list>
     </option>
   </component>
@@ -292,8 +325,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -345,6 +376,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="liumm" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="StageOnePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liumm" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -418,20 +459,12 @@
               <item name="liumm" type="462c0819:PsiDirectoryNode" />
               <item name="mr" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="StageOnePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="liumm" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -445,7 +478,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -678,14 +711,13 @@
       <workItem from="1530289086804" duration="241000" />
       <workItem from="1530289409377" duration="531000" />
       <workItem from="1530321800670" duration="15348000" />
-      <workItem from="1530496512319" duration="6480000" />
+      <workItem from="1530496512319" duration="8184000" />
+      <workItem from="1530516050830" duration="269000" />
+      <workItem from="1530539729407" duration="1659000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2018.07.02 at 12h 25m 43s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest - 2018.07.02 at 12h 27m 55s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
@@ -713,9 +745,12 @@
     <history-entry file="MainTest_mrTest - 2018.07.02 at 12h 49m 32s.xml">
       <configuration name="MainTest.mrTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_hbaseTest - 2018.07.02 at 12h 50m 18s.xml">
+      <configuration name="MainTest.hbaseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143091000" />
+    <option name="totallyTimeSpent" value="146723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,7 +767,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
@@ -740,59 +774,28 @@
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="5" weight="1.0" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32965517" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5958621" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.25103447" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.6689655" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31862068" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.35056543" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4275862" />
-      <window_info id="Favorites" order="5" side_tool="true" weight="0.32956383" />
-      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.23724137" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" weight="0.32956383" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5710345" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32965517" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32965517" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35056543" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4124138" />
-    </layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -841,28 +844,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/hbase/4.shell操作Hbase.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="134">
-            <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -982,20 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hdfs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1021,17 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="414" column="45" lean-forward="true" selection-start-line="414" selection-start-column="45" selection-end-line="414" selection-end-column="45" />
-          <folding>
-            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,60 +1051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseMultipleRegionClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6525">
-          <caret line="475" column="21" selection-start-line="475" selection-start-column="21" selection-end-line="475" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hdfs/HdfsPutFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/utils/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1159,26 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJsonJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -1189,30 +1075,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java">
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="258">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2.jar!/org/apache/hadoop/hbase/client/Admin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="225" column="55" selection-start-line="225" selection-start-column="28" selection-end-line="225" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="365">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java">
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+        <state relative-caret-position="454">
+          <caret line="102" column="35" lean-forward="true" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1221,14 +1159,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/entity/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="58" column="72" selection-start-line="58" selection-start-column="72" selection-end-line="58" selection-end-column="72" />
+        <state relative-caret-position="571">
+          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+          <folding>
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseMultipleRegionClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6120">
+          <caret line="448" column="37" selection-start-line="448" selection-start-column="37" selection-end-line="448" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="675">
           <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1236,10 +1216,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java">
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hdfs/HdfsPutFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="168">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

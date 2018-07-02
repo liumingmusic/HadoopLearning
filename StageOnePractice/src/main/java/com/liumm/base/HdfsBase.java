@@ -1,6 +1,7 @@
 package com.liumm.base;
 
 import com.liumm.exception.CustomException;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 
@@ -13,6 +14,7 @@ import java.net.URI;
  * @author liumm
  * @date 2018-06-09 17:57
  */
+@Slf4j
 public class HdfsBase {
 
     //链接地址
@@ -64,6 +66,7 @@ public class HdfsBase {
         } else {
             throw new CustomException("现在不支持集群方式链接");
         }
+        log.info("HDFS连接成功");
         return fileSystem;
     }
 

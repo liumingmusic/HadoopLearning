@@ -20,7 +20,6 @@ public class HbaseSingleRegionClient {
     /**
      * @param table
      * @param parentIds
-     * @return java.util.Map<java.lang.String       ,       java.lang.Long>
      * @method callCoprocessor
      * @description 查询多个parentIds
      * @date: 18/6/30 19:09

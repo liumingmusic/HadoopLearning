@@ -35,11 +35,19 @@ public class HbaseRegion {
     public void createTables(String tableName) throws IOException, CustomException {
         Connection connection = hbaseBase.connectionDefault();
         Admin admin = connection.getAdmin();
+        TableName newTable = TableName.valueOf(tableName);
+        //判断表是否存在
+        if (admin.tableExists(newTable)) {
+            admin.disableTable(newTable);
+            admin.truncateTable(newTable, true);
+            admin.enableTable(newTable);
+            return;
+        }
         //创建表
         HTableDescriptor htable = new HTableDescriptor(TableName.valueOf(tableName));
         //添加列簇
         htable.addFamily(new HColumnDescriptor("cfn"));
-
+        //指定分区
         String[] splitKeys = {"11", "12", "13", "14", "15", "21",
                 "22", "23", "31", "32", "33",
                 "34", "35", "36", "37", "41",
@@ -53,7 +61,6 @@ public class HbaseRegion {
                 splitKeyBytes[i] = Bytes.toBytes(str);
             }
         }
-
         //创建分区
         admin.createTable(htable, splitKeyBytes);
     }

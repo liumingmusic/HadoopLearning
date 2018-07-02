@@ -38,7 +38,6 @@ public class MapReduceJson {
         private Connection connection = null;
         private Table table;
 
-
         @Override
         protected void setup(Context context) throws IOException {
             try {

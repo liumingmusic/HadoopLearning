@@ -4,6 +4,7 @@ import com.liumm.entity.City;
 import com.liumm.hbase.HbaseSearch;
 import com.liumm.hdfs.HdfsPutFile;
 import com.liumm.mr.MapReduceJsonJob;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 import java.util.Map;
@@ -16,6 +17,7 @@ import java.util.Map;
  * @Version: 1.0
  * @Date 2018-06-30 17:18
  */
+@Slf4j
 public class Main {
 
     private static HdfsPutFile hdfsPutFile = new HdfsPutFile();
@@ -37,9 +39,9 @@ public class Main {
         if (args[0].equalsIgnoreCase("hdfs")) {
             if (args.length == 3) {
                 hdfsPutFile.putFileToHDFS(args[1], args[2]);
-                System.out.println("上传成功");
+                log.info("上传成功");
             } else {
-                System.out.println("输入的参数有误");
+                log.info("输入的参数有误");
             }
         }
         //2、写入数据到hbase
@@ -52,18 +54,18 @@ public class Main {
             if (args.length == 2) {
                 List<City> cityList = hbaseSearch.getCityList(args[1]);
                 for (City c : cityList) {
-                    System.out.println(c);
+                    log.info(c.toString());
                 }
             }
             //3.2、查询多个的和
             else {
                 Map<String, Long> count = hbaseSearch.getCountByParent(Main.deleteFirst(args));
                 for (Map.Entry<String, Long> map : count.entrySet()) {
-                    System.out.println("地区编号：" + map.getKey() + ";地区个数：" + map.getValue());
+                    log.info("地区编号：" + map.getKey() + ";地区个数：" + map.getValue());
                 }
             }
         } else {
-            System.out.println("输入有误");
+            log.info("输入有误");
         }
     }
 

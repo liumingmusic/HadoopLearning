@@ -1,6 +1,7 @@
 package com.liumm.base;
 
 import com.liumm.exception.CustomException;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.client.Connection;
@@ -17,6 +18,7 @@ import java.util.ArrayList;
  * @Version: 1.0
  * @Date 2018-06-24 20:08
  */
+@Slf4j
 public class HbaseBase {
 
     public final static String hbaseMasterIPS = "hthx205";
@@ -98,6 +100,7 @@ public class HbaseBase {
             that.set("zookeeper.session.timeout", "3000");
             conf = HBaseConfiguration.create(that);
             connect = ConnectionFactory.createConnection(conf);
+            log.info("hbase 连接成功");
         } else {
             throw new CustomException("IP address is not set.");
         }
