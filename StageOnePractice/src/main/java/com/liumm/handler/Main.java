@@ -35,6 +35,8 @@ public class Main {
      * @author: liumm
      */
     public static void main(String[] args) throws Exception {
+        System.out.println(args[0]);
+        System.out.println(args[1]);
         //1、hdfs上传文件
         if (args[0].equalsIgnoreCase("hdfs")) {
             if (args.length == 3) {
@@ -50,16 +52,17 @@ public class Main {
         }
         //3、查询hbase数据
         else if (args[0].equalsIgnoreCase("hbase")) {
+            String[] split = args[1].split(",");
             //3.1、查询单个的省下面的信息
-            if (args.length == 2) {
-                List<City> cityList = hbaseSearch.getCityList(args[1]);
+            if (split.length == 1) {
+                List<City> cityList = hbaseSearch.getCityList(split[0]);
                 for (City c : cityList) {
                     log.info(c.toString());
                 }
             }
             //3.2、查询多个的和
             else {
-                Map<String, Long> count = hbaseSearch.getCountByParent(Main.deleteFirst(args));
+                Map<String, Long> count = hbaseSearch.getCountByParent(split);
                 for (Map.Entry<String, Long> map : count.entrySet()) {
                     log.info("地区编号：" + map.getKey() + ";地区个数：" + map.getValue());
                 }
@@ -69,17 +72,4 @@ public class Main {
         }
     }
 
-    /**
-     * @param arr
-     * @return java.lang.String[]
-     * @method deleteFirst
-     * @description 删除第一个元素
-     * @date: 18/6/30 20:37
-     * @author: liumm
-     */
-    public static String[] deleteFirst(String[] arr) {
-        String[] temp = new String[arr.length - 1];
-        System.arraycopy(arr, 1, temp, 0, temp.length);
-        return temp;
-    }
 }

@@ -25,7 +25,7 @@ public class MainTest {
     @Test
     public void hbaseTest() throws Exception {
 
-        String[] str = new String[]{"hbase", "654300"};
+        String[] str = new String[]{"hbase", "654300,000000"};
 
         Main.main(str);
 
