@@ -26,7 +26,7 @@ public class HbaseRegion {
 
     /***
      * @method createTables
-     * @description 创建分区
+     * @description 创建分区，如果分区存在删除重新创建
      * @date: 18/6/30 13:18
      * @author: liumm
      * @param tableName
@@ -39,9 +39,7 @@ public class HbaseRegion {
         //判断表是否存在
         if (admin.tableExists(newTable)) {
             admin.disableTable(newTable);
-            admin.truncateTable(newTable, true);
-            admin.enableTable(newTable);
-            return;
+            admin.deleteTable(newTable);
         }
         //创建表
         HTableDescriptor htable = new HTableDescriptor(TableName.valueOf(tableName));

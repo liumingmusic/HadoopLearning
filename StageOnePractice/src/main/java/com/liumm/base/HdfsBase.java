@@ -18,10 +18,10 @@ import java.net.URI;
 public class HdfsBase {
 
     //链接地址
-    public static final String default_url = "hdfs://hthx205:8020/";
+    public static final String default_url = "hdfs://hdp01:8020/";
 
     //访问用户
-    public static final String user = "root";
+    public static final String user = "hadoop";
 
     //副本系数
     public static final String replication = "1";
@@ -59,6 +59,7 @@ public class HdfsBase {
     public FileSystem getHdfsConnection(String... url) throws Exception {
         Configuration conf = new Configuration();
         conf.set("dfs.replication", replication);
+        conf.set("fs.hdfs.impl", "org.apache.hadoop.hdfs.DistributedFileSystem");
         if (url.length == 0) {
             fileSystem = FileSystem.get(new URI(default_url), conf, user);
         } else if (url.length == 1) {

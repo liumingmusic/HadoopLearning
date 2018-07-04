@@ -1,5 +1,6 @@
 package com.liumm.handler;
 
+import com.liumm.base.HdfsBase;
 import com.liumm.entity.City;
 import com.liumm.hbase.HbaseSearch;
 import com.liumm.hdfs.HdfsPutFile;
@@ -35,8 +36,6 @@ public class Main {
      * @author: liumm
      */
     public static void main(String[] args) throws Exception {
-        System.out.println(args[0]);
-        System.out.println(args[1]);
         //1、hdfs上传文件
         if (args[0].equalsIgnoreCase("hdfs")) {
             if (args.length == 3) {
@@ -48,7 +47,7 @@ public class Main {
         }
         //2、写入数据到hbase
         else if (args[0].equalsIgnoreCase("mr")) {
-            mapReduceJsonJob.run(args[1], args[2]);
+            mapReduceJsonJob.run(HdfsBase.default_url +args[1], HdfsBase.default_url+args[2]);
         }
         //3、查询hbase数据
         else if (args[0].equalsIgnoreCase("hbase")) {
@@ -64,7 +63,7 @@ public class Main {
             else {
                 Map<String, Long> count = hbaseSearch.getCountByParent(split);
                 for (Map.Entry<String, Long> map : count.entrySet()) {
-                    log.info("地区编号：" + map.getKey() + ";地区个数：" + map.getValue());
+                    log.info("地区编号:" + map.getKey() + "; 地区个数:" + map.getValue());
                 }
             }
         } else {

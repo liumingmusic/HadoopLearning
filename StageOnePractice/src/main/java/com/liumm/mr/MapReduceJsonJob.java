@@ -1,9 +1,11 @@
 package com.liumm.mr;
 
+import com.liumm.base.HdfsBase;
 import com.liumm.exception.CustomException;
 import com.liumm.hbase.HbaseRegion;
 import com.liumm.utils.Constant;
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
@@ -25,6 +27,10 @@ public class MapReduceJsonJob {
 
     private HbaseRegion hbaseRegion = new HbaseRegion();
 
+    private static FileSystem fileSystem = null;
+
+    private HdfsBase instance = HdfsBase.getInstance();
+
     /**
      * @param src
      * @param dest
@@ -34,14 +40,17 @@ public class MapReduceJsonJob {
      * @date: 18/7/2 11:19
      * @author: liumm
      */
-    public void run(String src, String dest) throws IOException, ClassNotFoundException, InterruptedException, CustomException {
+    public void run(String src, String dest) throws Exception {
+
+        fileSystem = instance.getHdfsConnection();
 
         // 创建表
         hbaseRegion.createTables("city");
 
         // 创建job
         Configuration configuration = new Configuration();
-        Job job = Job.getInstance(configuration, "cityHbase");
+        configuration.set("fs.hdfs.impl", "org.apache.hadoop.hdfs.DistributedFileSystem");
+        Job job = Job.getInstance(configuration, "CityHbase");
         job.setJarByClass(MapReduceJson.class);
 
         // 设置map相关参数
@@ -52,7 +61,14 @@ public class MapReduceJsonJob {
         // 设置作业的输入路径
         FileInputFormat.addInputPath(job, new Path(src));
 
-        FileOutputFormat.setOutputPath(job, new Path(dest));
+        //输出的路径存在，删除之后执行
+        Path destPath = new Path(dest);
+        if (fileSystem.isDirectory(destPath)) {
+            fileSystem.delete(destPath, true);
+        }
+
+        //设置输出路径
+        FileOutputFormat.setOutputPath(job, destPath);
 
         // 提交作业
         job.waitForCompletion(true);

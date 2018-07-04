@@ -61,12 +61,12 @@ public class HbaseSearch {
      * @author: liumm
      */
     public Map<String, Long> getCountByParent(String... parentId) throws Exception {
-        Map<String, Long> map = new HashMap<>();
+        Map<String, Long> map;
         Connection connection = hbaseBase.connectionDefault();
         Table table = connection.getTable(TableName.valueOf("city"));
         //保证同一地区的子地区在一个分区里面
         HbaseSingleRegionClient client = new HbaseSingleRegionClient();
-        client.callCoprocessor(table, parentId);
+        map = client.callCoprocessor(table, parentId);
         return map;
     }
 

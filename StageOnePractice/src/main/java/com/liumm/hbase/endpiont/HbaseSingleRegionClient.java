@@ -28,9 +28,10 @@ public class HbaseSingleRegionClient {
     public Map<String, Long> callCoprocessor(Table table, String... parentIds) throws Exception {
         Map<String, Long> map = new HashMap<>();
         for (String parentId : parentIds) {
-            CoprocessorRpcChannel channel = table.coprocessorService(parentId.getBytes());
+            CoprocessorRpcChannel channel = table.coprocessorService((parentId + "|").getBytes());
             HbaseProtocol.C503HbaseQueryService.BlockingInterface service = HbaseProtocol.C503HbaseQueryService.newBlockingStub(channel);
-            HbaseProtocol.C503HbaseRequest request = HbaseProtocol.C503HbaseRequest.newBuilder().setJsonStr("JsonStr").build();
+            //传参数parentId,后续的业务也可以从这里入手,丰富业务
+            HbaseProtocol.C503HbaseRequest request = HbaseProtocol.C503HbaseRequest.newBuilder().setJsonStr(parentId).build();
             HbaseProtocol.C503HbaseResponse result = service.query(null, request);
             map.put(parentId, Long.parseLong(result.getResult()));
         }

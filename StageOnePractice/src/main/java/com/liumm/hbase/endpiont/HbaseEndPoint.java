@@ -5,6 +5,7 @@ import com.google.protobuf.RpcController;
 import com.google.protobuf.Service;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hadoop.hbase.Cell;
+import org.apache.hadoop.hbase.CellUtil;
 import org.apache.hadoop.hbase.Coprocessor;
 import org.apache.hadoop.hbase.CoprocessorEnvironment;
 import org.apache.hadoop.hbase.client.Scan;
@@ -13,7 +14,9 @@ import org.apache.hadoop.hbase.coprocessor.CoprocessorService;
 import org.apache.hadoop.hbase.coprocessor.RegionCoprocessorEnvironment;
 import org.apache.hadoop.hbase.filter.Filter;
 import org.apache.hadoop.hbase.filter.KeyOnlyFilter;
+import org.apache.hadoop.hbase.filter.PrefixFilter;
 import org.apache.hadoop.hbase.regionserver.RegionScanner;
+import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -63,16 +66,16 @@ public class HbaseEndPoint extends HbaseProtocol.C503HbaseQueryService implement
     }
 
     /**
-     * @param jsonStr
+     * @param rowkey
      * @return java.lang.Long
      * @method getRowCount
      * @description 获取条数
      * @date: 18/6/30 18:33
      * @author: liumm
      */
-    public Long getRowCount(String jsonStr) throws IOException {
+    public Long getRowCount(String rowkey) throws IOException {
         Long rowCount = 0L;
-        Filter filter = new KeyOnlyFilter();
+        Filter filter = new PrefixFilter(Bytes.toBytes(rowkey));
         Scan scan = new Scan();
         scan.setFilter(filter);
         RegionScanner scanner = this.environment.getRegion().getScanner(scan);
@@ -83,6 +86,7 @@ public class HbaseEndPoint extends HbaseProtocol.C503HbaseQueryService implement
             if (cells.size() > 0) {
                 rowCount += 1;
             }
+            cells.clear();
         }
         while (hasMore);
         return rowCount;

@@ -21,7 +21,7 @@ import java.util.ArrayList;
 @Slf4j
 public class HbaseBase {
 
-    public final static String hbaseMasterIPS = "hthx205";
+    public final static String hbaseMasterIPS = "hdp01";
 
     public final static int hbaseMasterPort = 2181;
 
