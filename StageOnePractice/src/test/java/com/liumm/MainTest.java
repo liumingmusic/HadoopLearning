@@ -55,5 +55,9 @@ public class MainTest {
 
 
     }
-
+    
+    @Test
+    public void mainTest() throws  Exception{
+        System.out.println("MainTest.mainTest");
+    }
 }

@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/logs/mapReduce.log.2018-06-30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/logs/mapReduce.log.2018-07-02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hdfs/HdfsPutFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hdfs/HdfsPutFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJsonJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJsonJob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java" afterDir="false" />
     </list>
@@ -49,7 +46,17 @@
     <favorites_list name="HadoopLearning" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,12 +113,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/maven/2.依赖聚合与继承.md" />
-        <option value="$PROJECT_DIR$/docs/yarn/1.框架组件流程调度.md" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/HbaseBase.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/HbaseBase.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Namespace.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Tables.java" />
         <option value="$PROJECT_DIR$/docs/maven/3.搭建管理与应用.md" />
@@ -147,16 +150,20 @@
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HbaseBase.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/target/app.sh" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/StageOnePractice/pom.xml" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseEndPoint.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseSingleRegionClient.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hdfs/HdfsPutFile.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseRegion.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJsonJob.java" />
-        <option value="$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java" />
         <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/HbaseSearch.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -218,6 +225,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,35 +237,33 @@
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="StageOnePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="StageOnePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="StageOnePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="StageOnePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HadoopLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -306,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.hbaseTest">
+  <component name="RunManager" selected="JUnit.MainTest.mainTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -472,10 +479,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.mainTest" />
         <item itemvalue="JUnit.MainTest.hbaseTest" />
         <item itemvalue="JUnit.MainTest.mrTest" />
         <item itemvalue="JUnit.MainTest.hdfsTest" />
-        <item itemvalue="JUnit.MainTest.mainTest" />
         <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
@@ -526,17 +533,15 @@
       <workItem from="1530590998727" duration="6635000" />
       <workItem from="1530620569457" duration="4573000" />
       <workItem from="1530682078151" duration="33000" />
-      <workItem from="1530692464980" duration="12804000" />
+      <workItem from="1530692464980" duration="13191000" />
+      <workItem from="1530867076381" duration="865000" />
+      <workItem from="1530868146840" duration="541000" />
+      <workItem from="1530868748185" duration="257000" />
+      <workItem from="1530869032537" duration="1447000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_hbaseTest - 2018.07.04 at 19h 24m 31s.xml">
-      <configuration name="MainTest.hbaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_hbaseTest - 2018.07.04 at 19h 38m 55s.xml">
-      <configuration name="MainTest.hbaseTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_hdfsTest - 2018.07.04 at 19h 54m 20s.xml">
       <configuration name="MainTest.hdfsTest" configurationId="JUnit" />
     </history-entry>
@@ -561,9 +566,15 @@
     <history-entry file="MainTest_hbaseTest - 2018.07.04 at 20h 10m 03s.xml">
       <configuration name="MainTest.hbaseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_mainTest - 2018.07.06 at 18h 06m 52s.xml">
+      <configuration name="MainTest.mainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_mainTest - 2018.07.06 at 18h 07m 41s.xml">
+      <configuration name="MainTest.mainTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171225000" />
+    <option name="totallyTimeSpent" value="174722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,30 +586,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32965517" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.62482756" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
+      <window_info id="Structure" order="1" sideWeight="0.50206894" side_tool="true" weight="0.27705976" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4413793" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32965517" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.24965517" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.6689655" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.54206896" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.6689655" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.2609047" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
-      <window_info id="Structure" order="1" sideWeight="0.5020576" side_tool="true" weight="0.27059773" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49793103" visible="true" weight="0.27705976" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" sideWeight="0.5006896" side_tool="true" weight="0.27059773" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4413793" />
+      <window_info id="Favorites" order="5" sideWeight="0.50206894" side_tool="true" weight="0.27705976" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
@@ -606,7 +620,6 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
@@ -623,22 +636,22 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
       <window_info anchor="right" x="0" y="0" width="270" height="600" id="Documentation" order="9" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.24965517" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.2609047" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.5020576" side_tool="true" weight="0.27059773" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4413793" />
     </layout-to-restore>
   </component>
@@ -693,34 +706,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="35" column="82" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/utils/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Namespace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -746,13 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/exception/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -816,13 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1081,9 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/target/area.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/HdfsJavaApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -1126,27 +1094,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/target/app.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/target/app.sh" />
     <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/hbase/endpiont/HbaseMultipleRegionClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1161,13 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/hbase/hbase-client/1.1.2/hbase-client-1.1.2.jar!/org/apache/hadoop/hbase/client/Table.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1179,9 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="42" column="60" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1210,9 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,24 +1172,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/mr/MapReduceJson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-98">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/handler/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="49" column="78" lean-forward="true" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/java/com/liumm/base/HdfsBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/Hbase_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/base/Hbase_Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/logs/StageOnePractice.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="42" column="85" lean-forward="true" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>

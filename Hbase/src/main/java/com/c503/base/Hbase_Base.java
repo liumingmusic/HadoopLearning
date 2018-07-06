@@ -19,6 +19,7 @@ import java.util.ArrayList;
  * @Version: 1.0
  * @Date 2018-06-24 20:08
  */
+@SuppressWarnings({"ALL", "AlibabaStringConcat"})
 public class Hbase_Base {
 
     public final static String hbaseMasterIPS = "hthx205";
@@ -43,10 +44,12 @@ public class Hbase_Base {
      * @date: 18/6/25 19:58
      * @author: liumm
      */
+    @SuppressWarnings("AlibabaStringConcat")
     public Connection connectToHbase(ArrayList<String> zkIps, int zkPort, String znode) throws IOException, CustomException {
         String zkIp = "";
         if (zkIps != null && zkIps.size() > 0) {
             for (String ip : zkIps) {
+                //noinspection AlibabaStringConcat
                 zkIp = zkIp + ip + ",";
             }
             if (zkIp.endsWith(",")) {

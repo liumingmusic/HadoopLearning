@@ -47,7 +47,7 @@ public class Main {
         }
         //2、写入数据到hbase
         else if (args[0].equalsIgnoreCase("mr")) {
-            mapReduceJsonJob.run(HdfsBase.default_url +args[1], HdfsBase.default_url+args[2]);
+            mapReduceJsonJob.run(HdfsBase.default_url + args[1], HdfsBase.default_url + args[2]);
         }
         //3、查询hbase数据
         else if (args[0].equalsIgnoreCase("hbase")) {
@@ -70,5 +70,4 @@ public class Main {
             log.info("输入有误");
         }
     }
-
 }
