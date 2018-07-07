@@ -3,6 +3,7 @@
 
 package com.liumm.hbase.endpiont;
 
+@SuppressWarnings("AliMissingOverrideAnnotation")
 public final class HbaseProtocol {
   private HbaseProtocol() {}
   public static void registerAllExtensions(
@@ -29,6 +30,7 @@ public final class HbaseProtocol {
   /**
    * Protobuf type {@code C503HbaseRequest}
    */
+  @SuppressWarnings("AliMissingOverrideAnnotation")
   public static final class C503HbaseRequest extends
       com.google.protobuf.GeneratedMessage
       implements C503HbaseRequestOrBuilder {
@@ -171,7 +173,9 @@ public final class HbaseProtocol {
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
+      if (isInitialized != -1) {
+          return isInitialized == 1;
+      }
 
       memoizedIsInitialized = 1;
       return true;
@@ -315,6 +319,7 @@ public final class HbaseProtocol {
     /**
      * Protobuf type {@code C503HbaseRequest}
      */
+    @SuppressWarnings("AliMissingOverrideAnnotation")
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
        implements com.liumm.hbase.endpiont.HbaseProtocol.C503HbaseRequestOrBuilder {
@@ -538,6 +543,7 @@ public final class HbaseProtocol {
   /**
    * Protobuf type {@code C503HbaseResponse}
    */
+  @SuppressWarnings("AliMissingOverrideAnnotation")
   public static final class C503HbaseResponse extends
       com.google.protobuf.GeneratedMessage
       implements C503HbaseResponseOrBuilder {
@@ -824,6 +830,7 @@ public final class HbaseProtocol {
     /**
      * Protobuf type {@code C503HbaseResponse}
      */
+    @SuppressWarnings("AliMissingOverrideAnnotation")
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
        implements com.liumm.hbase.endpiont.HbaseProtocol.C503HbaseResponseOrBuilder {
@@ -1029,6 +1036,7 @@ public final class HbaseProtocol {
   /**
    * Protobuf service {@code C503HbaseQueryService}
    */
+  @SuppressWarnings("AliMissingOverrideAnnotation")
   public static abstract class C503HbaseQueryService
       implements com.google.protobuf.Service {
     protected C503HbaseQueryService() {}
@@ -1196,6 +1204,7 @@ public final class HbaseProtocol {
       return new Stub(channel);
     }
 
+    @SuppressWarnings("AliMissingOverrideAnnotation")
     public static final class Stub extends com.liumm.hbase.endpiont.HbaseProtocol.C503HbaseQueryService implements Interface {
       private Stub(com.google.protobuf.RpcChannel channel) {
         this.channel = channel;
@@ -1235,6 +1244,7 @@ public final class HbaseProtocol {
           throws com.google.protobuf.ServiceException;
     }
 
+    @SuppressWarnings("AliMissingOverrideAnnotation")
     private static final class BlockingStub implements BlockingInterface {
       private BlockingStub(com.google.protobuf.BlockingRpcChannel channel) {
         this.channel = channel;
