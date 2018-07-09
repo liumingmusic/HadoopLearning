@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_10_imm_stack.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_11_imm_seq.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_1_mutable_listBuffer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_imm_List_exts.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_mutable_queue.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_3_mutable_hasMap.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_7_imm_Tuoles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_7_imm_Tuples.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,30 +44,30 @@
     <favorites_list name="HadoopLearning" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Collection_9_imm_Queue.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_9_imm_Queue.scala">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Collection_1_mutable_listBuffer.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_1_mutable_listBuffer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="15">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collection_11_imm_seq.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_11_imm_seq.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection_10_imm_stack.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_10_imm_stack.scala">
+      <file leaf-file-name="Collection_3_mutable_hasMap.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_3_mutable_hasMap.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection_2_mutable_queue.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_mutable_queue.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -126,12 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/HelloWorld.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/Outer.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/If.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/defTest.scala" />
-        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Basic.java" />
-        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/MapReduce_Hdfs.java" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/Scala_1_if_else.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/Clause_1_if_else.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/Clause_2_for.scala" />
@@ -164,7 +161,6 @@
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/Collection_7_imm_Tuoles.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/Collection_8_imm_Options.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/Collection_9_imm_Queue.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_1_if_else.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_2_for.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_3_while.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_4_do_while.scala" />
@@ -177,6 +173,13 @@
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Function_6_InvokeByRecursion_Test.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_10_imm_stack.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_11_imm_seq.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_1_if_else.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_7_imm_Tuples.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_imm_List_exts.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_1_mutable_listBuffer.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_mutable_hasMap.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_3_mutable_hasMap.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_mutable_queue.scala" />
       </list>
     </option>
   </component>
@@ -202,21 +205,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Hadoop-Learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Hbase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Hbase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -239,7 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,8 +275,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,17 +289,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/images/yarn" />
-      <recent name="$PROJECT_DIR$/docs/images/maven" />
-      <recent name="$PROJECT_DIR$/docs/lib" />
-      <recent name="$PROJECT_DIR$/doc/mapreduce" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/StageOnePractice/target" />
+      <recent name="$PROJECT_DIR$/StageOnePractice/src/main/resources" />
+      <recent name="$PROJECT_DIR$/docs/images" />
+      <recent name="$PROJECT_DIR$/docs/hdfs" />
+      <recent name="$PROJECT_DIR$/docs/hbase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.liumm.scala" />
@@ -319,12 +309,11 @@
       <recent name="com.liumm.utils" />
       <recent name="com.liumm.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/StageOnePractice/target" />
-      <recent name="$PROJECT_DIR$/StageOnePractice/src/main/resources" />
-      <recent name="$PROJECT_DIR$/docs/images" />
-      <recent name="$PROJECT_DIR$/docs/hdfs" />
-      <recent name="$PROJECT_DIR$/docs/hbase" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/images/yarn" />
+      <recent name="$PROJECT_DIR$/docs/images/maven" />
+      <recent name="$PROJECT_DIR$/docs/lib" />
+      <recent name="$PROJECT_DIR$/doc/mapreduce" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,25 +328,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Collection_11_imm_seq">
-    <configuration name="Collection_10_imm_stack" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.c503.scala.Collection_10_imm_stack" />
-      <module name="Scala" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.c503.scala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Collection_2_mutable_queue">
     <configuration name="Collection_11_imm_seq" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.c503.scala.Collection_11_imm_seq" />
       <module name="Scala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.c503.scala.*" />
+          <option name="PATTERN" value="com.c503.scala.Collection_3_mutable_hasMap" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,41 +351,52 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Collection_1_mutable_listBuffer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.c503.scala.Collection_1_mutable_listBuffer" />
+      <module name="Scala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.c503.scala.Collection_3_mutable_hasMap" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Collection_2_imm_List_exts" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.c503.scala.Collection_2_imm_List_exts" />
+      <module name="Scala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.c503.scala.Collection_3_mutable_hasMap" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Collection_2_mutable_queue" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.c503.scala.Collection_2_mutable_queue" />
+      <module name="Scala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.c503.scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Collection_3_mutable_hasMap" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.c503.scala.Collection_2_mutable_hasMap" />
+      <module name="Scala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.c503.scala.Collection_3_mutable_hasMap" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Collection_6_imm_Iterators" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.liumm.scala.Collection_6_imm_Iterators" />
-      <module name="Scala" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liumm.scala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Collection_7_imm_Tuoles" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.liumm.scala.Collection_7_imm_Tuoles" />
-      <module name="Scala" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liumm.scala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Collection_8_imm_Options" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.liumm.scala.Collection_8_imm_Options" />
-      <module name="Scala" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liumm.scala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Collection_9_imm_Queue" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.liumm.scala.Collection_9_imm_Queue" />
       <module name="Scala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -461,19 +450,19 @@
     <list>
       <item itemvalue="Application.Collection_1_List" />
       <item itemvalue="Application.Collection_6_imm_Iterators" />
-      <item itemvalue="Application.Collection_7_imm_Tuoles" />
-      <item itemvalue="Application.Collection_8_imm_Options" />
-      <item itemvalue="Application.Collection_9_imm_Queue" />
-      <item itemvalue="Application.Collection_10_imm_stack" />
       <item itemvalue="Application.Collection_11_imm_seq" />
+      <item itemvalue="Application.Collection_2_imm_List_exts" />
+      <item itemvalue="Application.Collection_1_mutable_listBuffer" />
+      <item itemvalue="Application.Collection_3_mutable_hasMap" />
+      <item itemvalue="Application.Collection_2_mutable_queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collection_2_mutable_queue" />
+        <item itemvalue="Application.Collection_3_mutable_hasMap" />
+        <item itemvalue="Application.Collection_1_mutable_listBuffer" />
+        <item itemvalue="Application.Collection_2_imm_List_exts" />
         <item itemvalue="Application.Collection_11_imm_seq" />
-        <item itemvalue="Application.Collection_10_imm_stack" />
-        <item itemvalue="Application.Collection_9_imm_Queue" />
-        <item itemvalue="Application.Collection_8_imm_Options" />
-        <item itemvalue="Application.Collection_7_imm_Tuoles" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +519,10 @@
       <workItem from="1530869032537" duration="4877000" />
       <workItem from="1530926604212" duration="25761000" />
       <workItem from="1530976824567" duration="79000" />
-      <workItem from="1531053770381" duration="2647000" />
+      <workItem from="1531053770381" duration="3358000" />
+      <workItem from="1531063707115" duration="84000" />
+      <workItem from="1531131164186" duration="5283000" />
+      <workItem from="1531142836232" duration="5911000" />
     </task>
     <servers />
   </component>
@@ -567,7 +559,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206639000" />
+    <option name="totallyTimeSpent" value="218628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,7 +575,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.38081804" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
@@ -591,19 +583,19 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5014663" side_tool="true" weight="0.40827587" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49853373" visible="true" weight="0.30465445" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.69931036" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49853373" weight="0.40827587" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6689655" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6685473" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49793103" weight="0.39597315" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49793103" weight="0.6686217" />
       <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info id="Structure" order="1" sideWeight="0.50206894" side_tool="true" weight="0.27705976" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4413793" />
       <window_info id="Favorites" order="5" sideWeight="0.50206894" side_tool="true" weight="0.27705976" />
-      <window_info active="true" anchor="bottom" id="Debug" order="6" visible="true" weight="0.4413793" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
@@ -633,19 +625,19 @@
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
       <window_info anchor="right" x="0" y="0" width="109" height="600" id="Documentation" order="9" side_tool="true" weight="0.32844576" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49793103" visible="true" weight="0.39597315" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.69931036" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49793103" visible="true" weight="0.39597315" />
       <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.50206894" side_tool="true" weight="0.27705976" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4413793" />
     </layout-to-restore>
   </component>
@@ -700,80 +692,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/base/Hbase_Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/test/java/com/liumm/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="42" column="85" lean-forward="true" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/HelloWorld.scala" />
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/Outer.scala" />
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/If.scala" />
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/liumm/scala/defTest.scala" />
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Hdfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/Predef.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -819,55 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_2_for.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_3_while.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_4_do_while.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_5_break.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_6_exception.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_1_imm_List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_4_imm_Maps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_5_imm_sets.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -886,13 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_7_imm_Tuoles.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -959,20 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Function_10_Closure_Test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_1_if_else.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_9_imm_Queue.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -1001,17 +849,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_11_imm_seq.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="321" column="6" selection-start-line="321" selection-start-column="6" selection-end-line="321" selection-end-column="6" />
+        <state relative-caret-position="88">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_11_imm_seq.scala">
+    <entry file="file://$PROJECT_DIR$/Scala/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <folding>
+            <element signature="n#properties#0;n#project#0;n#!!top" />
+            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#distributionManagement#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_2_for.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_1_if_else.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_3_while.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_4_do_while.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_5_break.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_6_exception.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_4_imm_Maps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Function_10_Closure_Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_7_imm_Tuples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="631" column="34" selection-start-line="631" selection-start-column="34" selection-end-line="631" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="643" column="26" selection-start-line="643" selection-start-column="26" selection-end-line="643" selection-end-column="26" />
+          <folding>
+            <element signature="e#26184#26185#0" expanded="true" />
+            <element signature="e#26268#26269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/math/Ordering.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="635" column="39" selection-start-line="635" selection-start-column="39" selection-end-line="635" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/immutable/List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="256" column="15" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_1_imm_List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_imm_List_exts.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/mutable/ListBuffer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="334" column="6" selection-start-line="334" selection-start-column="6" selection-end-line="334" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_1_mutable_listBuffer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_3_mutable_hasMap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_mutable_queue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>

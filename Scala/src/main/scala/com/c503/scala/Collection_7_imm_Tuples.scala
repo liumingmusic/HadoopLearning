@@ -8,7 +8,7 @@ import java.util.Date
   * @author liumm
   * @since 2018-07-07 18:59
   */
-object Collection_7_imm_Tuoles {
+object Collection_7_imm_Tuples {
 
   def main(args: Array[String]): Unit = {
 
