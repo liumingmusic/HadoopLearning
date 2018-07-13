@@ -1,4 +1,5 @@
 package com.c503.scala
+
 /**
   * 描述 for循环
   *
@@ -53,6 +54,8 @@ object Clause_2_for {
     val a = List(1, 1, 1, 1, 5, 6, 7, 8, 9, 10)
 
     a.filter(x => x == a.head).foreach(println)
+
+    Range(1, 2, 10)
 
   }
 
