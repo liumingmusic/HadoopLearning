@@ -15,6 +15,7 @@
         <module>Hbase</module>
         <module>StageOnePractice</module>
         <module>Scala</module>
+        <module>Kafka</module>
     </modules>
 
     <properties>
