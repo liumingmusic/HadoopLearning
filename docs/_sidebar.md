@@ -33,6 +33,6 @@
   * [Hbase的rowkey设计原则](hbase/7.Hbase的rowkey设计原则)
 
 * kafka
-  * [Kafka常用主题名称](kafka/1.Kafka常用主题名称)
-  * [Kafka控制台生产者](kafka/2.Kafka控制台生产者)
+  * [Kafka常用主题名称](kafka/2.Kafka常用主题名称)
   * [Kafka控制台消费者](kafka/3.Kafka控制台消费者)
+  * [Kafka控制台生产者](kafka/4.Kafka控制台生产者)
