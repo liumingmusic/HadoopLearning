@@ -6,18 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baacbdb3-6816-4302-bb9a-416dde4cf614" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Custom_Object_6_Enum.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Custom_Object_8_Package_Runner.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_1_baseOn_Constant.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_2_baseOn_Binding_Variable.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_3_baseOn_Variable.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_4_baseOn_Type.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_5_baseOn_CaseClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_6_baseOn_Tuple.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_7_baseOn_IfClause.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_8_baseOn_List.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_9_baseOn_unapply.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/scala.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_1_Class.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_2_Method.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_3_Parameter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_4_ValOrVar.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_5_Object.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_6_11_1_Collection.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,84 +47,21 @@
     <favorites_list name="HadoopLearning" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PatternMatching_1_baseOn_Constant.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_1_baseOn_Constant.scala">
+    <leaf>
+      <file leaf-file-name="Implicit_5_Object.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_5_Object.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="408">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PatternMatching_2_baseOn_Binding_Variable.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_2_baseOn_Binding_Variable.scala">
+      <file leaf-file-name="Implicit_6_11_1_Collection.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_6_11_1_Collection.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching_3_baseOn_Variable.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_3_baseOn_Variable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching_4_baseOn_Type.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_4_baseOn_Type.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching_5_baseOn_CaseClass.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_5_baseOn_CaseClass.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching_6_baseOn_Tuple.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_6_baseOn_Tuple.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching_7_baseOn_IfClause.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_7_baseOn_IfClause.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching_8_baseOn_List.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_8_baseOn_List.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching_9_baseOn_unapply.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_9_baseOn_unapply.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="340">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -193,13 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_11_imm_seq.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_1_if_else.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_7_imm_Tuples.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_imm_List_exts.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_1_mutable_listBuffer.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_mutable_hasMap.scala" />
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_3_mutable_hasMap.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_2_mutable_queue.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_2_for.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_5_break.scala" />
@@ -244,6 +168,13 @@
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_7_baseOn_IfClause.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_8_baseOn_List.scala" />
         <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_9_baseOn_unapply.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_1_Class.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_1_Method.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_4_ValOrVar.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_3_Parameter.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_2_Method.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_6_11_1_Collection.scala" />
+        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_5_Object.scala" />
       </list>
     </option>
   </component>
@@ -285,8 +216,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="927" />
-    <option name="width" value="353" />
+    <option name="x" value="642" />
+    <option name="width" value="638" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -298,8 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,7 +277,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PatternMatching_9_baseOn_unapply">
+  <component name="RunManager" selected="Application.Implicit_6_11_1_Collection">
     <configuration name="Collection_1_List" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.liumm.scala.Collection_1_imm_List" />
       <module name="Scala" />
@@ -421,8 +352,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PatternMatching_4_baseOn_Type" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.c503.scala.PatternMatching_4_baseOn_Type" />
+    <configuration name="Implicit_3_Parameter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.c503.scala.Implicit_3_Parameter" />
       <module name="Scala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -432,8 +363,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PatternMatching_5_baseOn_CaseClass" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.c503.scala.PatternMatching_5_baseOn_CaseClass" />
+    <configuration name="Implicit_6_11_1_Collection" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.c503.scala.Implicit_6_11_1_Collection" />
       <module name="Scala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -520,19 +451,19 @@
     <list>
       <item itemvalue="Application.Collection_1_List" />
       <item itemvalue="Application.Collection_6_imm_Iterators" />
-      <item itemvalue="Application.PatternMatching_4_baseOn_Type" />
-      <item itemvalue="Application.PatternMatching_5_baseOn_CaseClass" />
       <item itemvalue="Application.PatternMatching_6_baseOn_Tuple" />
       <item itemvalue="Application.PatternMatching_8_baseOn_List" />
       <item itemvalue="Application.PatternMatching_9_baseOn_unapply" />
+      <item itemvalue="Application.Implicit_3_Parameter" />
+      <item itemvalue="Application.Implicit_6_11_1_Collection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Implicit_6_11_1_Collection" />
+        <item itemvalue="Application.Implicit_3_Parameter" />
         <item itemvalue="Application.PatternMatching_9_baseOn_unapply" />
         <item itemvalue="Application.PatternMatching_8_baseOn_List" />
         <item itemvalue="Application.PatternMatching_6_baseOn_Tuple" />
-        <item itemvalue="Application.PatternMatching_5_baseOn_CaseClass" />
-        <item itemvalue="Application.PatternMatching_4_baseOn_Type" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +536,8 @@
       <workItem from="1531585303045" duration="247000" />
       <workItem from="1531665154914" duration="1995000" />
       <workItem from="1531894539711" duration="4244000" />
-      <workItem from="1531924989614" duration="1873000" />
+      <workItem from="1531924989614" duration="2193000" />
+      <workItem from="1532009139602" duration="4063000" />
     </task>
     <servers />
   </component>
@@ -642,7 +574,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255992000" />
+    <option name="totallyTimeSpent" value="260375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,12 +585,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="556" y="0" width="724" height="800" extended-state="0" />
+    <frame x="642" y="0" width="638" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32965517" />
-      <window_info active="true" anchor="bottom" id="Messages" order="1" visible="true" weight="0.38068965" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.38068965" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32965517" />
@@ -666,19 +598,19 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5014663" side_tool="true" weight="0.40827587" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.47672778" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49853373" weight="0.28275862" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49853373" visible="true" weight="0.28275862" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.47586206" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.44275862" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.06911142" weight="0.5366569" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.06911142" weight="0.6694631" />
       <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info id="Structure" order="1" sideWeight="0.9308886" side_tool="true" weight="0.23990306" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" sideWeight="0.50206894" side_tool="true" weight="0.27705976" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4413793" />
+      <window_info id="Favorites" order="5" sideWeight="0.50206894" side_tool="true" weight="0.27705976" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32965517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32965517" />
@@ -775,56 +707,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Collection_11_imm_seq.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_5_break.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Counter.scala" />
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Custom_Class_1_Simple.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Custom_Class_2_GetterAndSetter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Custom_Class_4_Constructor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Custom_Class_3_BeanProperty.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Custom_Class_5_MainConstructor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1154,8 +1036,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/PatternMatching_9_baseOn_unapply.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="45">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_4_ValOrVar.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_2_Method.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_3_Parameter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_1_Class.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#24#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_6_11_1_Collection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_5_Object.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
     </entry>
