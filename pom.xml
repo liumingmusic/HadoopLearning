@@ -16,6 +16,7 @@
         <module>StageOnePractice</module>
         <module>Scala</module>
         <module>Kafka</module>
+        <module>SparkCore</module>
     </modules>
 
     <properties>

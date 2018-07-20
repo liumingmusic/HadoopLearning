@@ -35,9 +35,9 @@ object Implicit_5_Object {
 
   def main(args: Array[String]): Unit = {
 
-    addAny(List(100, 100, 100))
-    addAny(List(100.1, 100.1, 100.2))
-    addAny(List("1", "2", "3"))
+    //addAny(List(100, 100, 100))
+    //addAny(List(100.1, 100.1, 100.2))
+    //addAny(List("1", "2", "3"))
 
   }
 

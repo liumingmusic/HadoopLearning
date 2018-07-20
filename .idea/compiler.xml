@@ -11,8 +11,20 @@
         <module name="Kafka" />
         <module name="MapReduce" />
         <module name="Scala" />
+        <module name="SparkCore" />
         <module name="StageOnePractice" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Hadoop-Learning" target="1.8" />
+      <module name="Hbase" target="1.8" />
+      <module name="Hdfs" target="1.8" />
+      <module name="Kafka" target="1.8" />
+      <module name="MapReduce" target="1.8" />
+      <module name="Scala" target="1.8" />
+      <module name="SparkCore" target="1.8" />
+      <module name="StageOnePractice" target="1.8" />
+      <module name="zzz" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
