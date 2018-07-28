@@ -3,10 +3,11 @@ package com.utils
 import scala.beans.BeanProperty
 
 /**
-  * 描述 简单描述方法的作用
-  *
-  * @author liumm
-  * @since 2018-07-28 11:26
+  * Spark Streaming 配置
+  * @author dtinone
+  * 加米谷大数据学院
+  * http://www.dtinone.com/
+  * 加米谷版权所有，仅供加米谷大数据学院内部使用，禁止其他机构使用，违者必究，追究法律责任。
   */
 class StreamConf {
 
