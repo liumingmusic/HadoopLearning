@@ -25,6 +25,7 @@ object SparkStreaming_1_1_local_TextFile {
     val sc = new StreamingContext(sparkConf, Seconds(1))
 
     val lines = sc.textFileStream("/Users/liuxm/A_study/idea_ws/mapreduce/")
+    println(lines)
     val words = lines.flatMap(_.split(" "))
     val pairs = words.map((_, 1))
     val wordCounts = pairs.reduceByKey(_ + _)
