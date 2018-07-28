@@ -12,6 +12,8 @@
         <module name="MapReduce" />
         <module name="Scala" />
         <module name="SparkCore" />
+        <module name="SparkSQL" />
+        <module name="SparkStreaming" />
         <module name="StageOnePractice" />
       </profile>
     </annotationProcessing>
@@ -23,6 +25,8 @@
       <module name="MapReduce" target="1.8" />
       <module name="Scala" target="1.8" />
       <module name="SparkCore" target="1.8" />
+      <module name="SparkSQL" target="1.8" />
+      <module name="SparkStreaming" target="1.8" />
       <module name="StageOnePractice" target="1.8" />
       <module name="zzz" target="1.8" />
     </bytecodeTargetLevel>

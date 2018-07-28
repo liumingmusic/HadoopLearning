@@ -8,7 +8,8 @@
     <file url="file://$PROJECT_DIR$/MapReduce" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Scala" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SparkCore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SparkSQL" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SparkStreaming" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/StageOnePractice" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zzz" charset="UTF-8" />
   </component>
 </project>

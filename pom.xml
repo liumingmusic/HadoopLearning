@@ -17,6 +17,8 @@
         <module>Scala</module>
         <module>Kafka</module>
         <module>SparkCore</module>
+        <module>SparkStreaming</module>
+        <module>SparkSQL</module>
     </modules>
 
     <properties>
@@ -39,6 +41,7 @@
         <commons.version>3.5</commons.version>
         <maven.assembly.version>3.0.0</maven.assembly.version>
         <mortbay.jetty.version>6.1.14</mortbay.jetty.version>
+        <mysql.version>5.1.38</mysql.version>
     </properties>
 
     <!--统一管理之模块所有的依赖版本，子类使用需要重新依赖坐标-->
