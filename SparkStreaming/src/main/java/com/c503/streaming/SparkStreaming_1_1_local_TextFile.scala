@@ -1,4 +1,4 @@
-package com.liumm
+package com.c503.streaming
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}

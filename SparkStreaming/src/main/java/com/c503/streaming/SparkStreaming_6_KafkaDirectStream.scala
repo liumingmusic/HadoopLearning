@@ -1,7 +1,8 @@
-package com.liumm
+package com.c503.streaming
 
 import com.utils.SparkConf
 import org.apache.spark.streaming.StreamingContext
+import org.apache.spark.streaming.kafka.KafkaUtils
 import org.scalatest.time.Seconds
 
 /**
@@ -17,7 +18,7 @@ object SparkStreaming_6_KafkaDirectStream {
     val sparkConf = new SparkConf("local[2]", "SparkStreaming_6_KafkaDirectStream")
     val context = new StreamingContext(sparkConf, Seconds(1))
 
-    kafkaUtils
+
 
   }
 

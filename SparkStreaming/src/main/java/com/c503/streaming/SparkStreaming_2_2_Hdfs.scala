@@ -1,4 +1,4 @@
-package com.liumm
+package com.c503.streaming
 
 import org.apache.hadoop.io.{LongWritable, Text}
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat
@@ -9,16 +9,16 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   * 描述 简单描述方法的作用
   *
   * @author liumm
-  * @since 2018-07-28 09:36
+  * @since 2018-07-28 09:50
   */
-object SparkStreaming_1_2_local_File {
+object SparkStreaming_2_2_Hdfs {
 
   def main(args: Array[String]): Unit = {
 
     val sparkConf = new SparkConf().setAppName("SparkStreaming_1_2_local_File").setMaster("local[2]")
     val sc = new StreamingContext(sparkConf, Seconds(1))
 
-    val textFileStream = sc.fileStream[LongWritable, Text, TextInputFormat]("")
+    val textFileStream = sc.fileStream[LongWritable, Text, TextInputFormat]("hdfs://hdp01:8082/user")
     val lines = textFileStream.map(_._2.toString)
     val words = lines.flatMap(_.split(" "))
     val pairs = words.map((_, 1))

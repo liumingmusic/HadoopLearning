@@ -2,47 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fbb4744-8af8-4772-9c4a-f908e21548f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/base/Hbase_Base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/coprocessor/observer/Hbase_MasterObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/coprocessor/observer/Hbase_RegionObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/exception/CustomException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Namespace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Scan_Filter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Tables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/exception/CustomException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/hdfs/HdfsBasic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/hdfs/HdfsJavaApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/impl/HdfsClientImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/impl/IHdfsClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/utils/HdfsUnit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka/src/main/java/com/liumm/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/entity/City.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Basic_Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Hdfs_Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Json_Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Multi_Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Parameter_Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Sort_Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Split_Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Basic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Hdfs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Json.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Multi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Parameter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Split.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/utils/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/SparkCore_1_CreateRdd_1_From_Parallelize.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SparkStreaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_1_local_TextFile.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_2_local_File.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_2_1_Hdfs_Text.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_2_2_Hdfs.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_3_Socket_SparkIsClient.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_4_Socket_RddInfo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/streaming/SparkStreaming_1_1_local_TextFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_1_1_local_TextFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/streaming/SparkStreaming_1_2_local_File.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_1_2_local_File.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/streaming/SparkStreaming_2_1_Hdfs_Text.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_2_1_Hdfs_Text.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/streaming/SparkStreaming_2_2_Hdfs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_2_2_Hdfs.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/streaming/SparkStreaming_3_Socket_SparkIsClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_3_Socket_SparkIsClient.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/streaming/SparkStreaming_4_Socket_RddInfo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_4_Socket_RddInfo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/streaming/SparkStreaming_6_KafkaDirectStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_6_KafkaDirectStream.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Hbase/target/" />
     <ignored path="$PROJECT_DIR$/Kafka/target/" />
@@ -64,11 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SparkCore_1_CreateRdd_1_From_Parallelize.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_1_From_Parallelize.scala">
+      <file leaf-file-name="SparkStreaming_6_KafkaDirectStream.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_6_KafkaDirectStream.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            <state relative-caret-position="340">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding>
+                <element signature="e#28#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Kafka/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/Kafka/src/test/java/liumm/App.java" />
         <option value="$PROJECT_DIR$/SparkCore/src/main/resources/log4j.properties" />
@@ -112,7 +82,6 @@
         <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/StreamConf.scala" />
         <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/SparkConf.scala" />
         <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_6_KafkaDirectStream.scala" />
-        <option value="$PROJECT_DIR$/SparkStreaming/pom.xml" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/base/Hbase_Base.java" />
         <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/coprocessor/observer/Hbase_RegionObserver.java" />
         <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/hdfs/HdfsBasic.java" />
@@ -147,6 +116,8 @@
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Sort_Job.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Split_Job.java" />
         <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_1_From_Parallelize.scala" />
+        <option value="$PROJECT_DIR$/SparkStreaming/pom.xml" />
+        <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_6_KafkaDirectStream.scala" />
       </list>
     </option>
   </component>
@@ -200,37 +171,47 @@
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,12 +390,12 @@
       <workItem from="1532095181515" duration="1423000" />
       <workItem from="1532096803611" duration="2927000" />
       <workItem from="1532689283720" duration="5047000" />
-      <workItem from="1532740389734" duration="7655000" />
+      <workItem from="1532740389734" duration="7994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22716000" />
+    <option name="totallyTimeSpent" value="23055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,8 +429,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3875862" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" visible="true" weight="0.27724138" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2956381" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" weight="0.27724138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17528272" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -521,16 +502,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/SocketService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#19#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_6_KafkaDirectStream.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -552,13 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -921,8 +885,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_1_From_Parallelize.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreaming/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_6_KafkaDirectStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#28#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
