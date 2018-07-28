@@ -2,14 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fbb4744-8af8-4772-9c4a-f908e21548f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_2_local_File.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_2_1_Hdfs_Text.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_2_2_Hdfs.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_3_Socket_SparkIsClient.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_4_Socket_RddInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/SocketService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_1_local_TextFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_1_local_TextFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/base/Hbase_Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/coprocessor/observer/Hbase_MasterObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/coprocessor/observer/Hbase_RegionObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Namespace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Scan_Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Tables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/hdfs/HdfsBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/hdfs/HdfsJavaApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/impl/HdfsClientImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/impl/IHdfsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/utils/HdfsUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/src/main/java/com/liumm/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/entity/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Basic_Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Hdfs_Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Json_Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Multi_Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Parameter_Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Sort_Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/job/MapReduce_Split_Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Basic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Hdfs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Json.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Multi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Parameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/mr/MapReduce_Split.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/scala/utils/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/SparkCore_1_CreateRdd_1_From_Parallelize.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreaming/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_1_local_TextFile.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_2_local_File.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_2_1_Hdfs_Text.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_2_2_Hdfs.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_3_Socket_SparkIsClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_4_Socket_RddInfo.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Hbase/target/" />
     <ignored path="$PROJECT_DIR$/Kafka/target/" />
@@ -31,14 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SparkStreaming_3_Socket_SparkIsClient.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_3_Socket_SparkIsClient.scala">
+      <file leaf-file-name="SparkCore_1_CreateRdd_1_From_Parallelize.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_1_From_Parallelize.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#19#52#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -66,12 +96,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_5_Object.scala" />
-        <option value="$PROJECT_DIR$/SparkCore/pom.xml" />
-        <option value="$PROJECT_DIR$/SparkCore/src/log4j-defaults.properties" />
-        <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/SparkCore_1_CreateRdd_1_From_Parallelize.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/SparkStreaming/pom.xml" />
         <option value="$PROJECT_DIR$/Kafka/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/Kafka/src/test/java/liumm/App.java" />
         <option value="$PROJECT_DIR$/SparkCore/src/main/resources/log4j.properties" />
@@ -84,6 +109,44 @@
         <option value="$PROJECT_DIR$/SparkStreaming/src/main/resources/scriptFile.scala" />
         <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/SocketService.scala" />
         <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_3_Socket_SparkIsClient.scala" />
+        <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/StreamConf.scala" />
+        <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/SparkConf.scala" />
+        <option value="$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_6_KafkaDirectStream.scala" />
+        <option value="$PROJECT_DIR$/SparkStreaming/pom.xml" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/base/Hbase_Base.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/coprocessor/observer/Hbase_RegionObserver.java" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/hdfs/HdfsBasic.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/exception/CustomException.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/hbase/Hbase_Scan_Filter.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/hbase/Hbase_Tables.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/hbase/Hbase_Namespace.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/hbase/Hbase_Data.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/coprocessor/observer/Hbase_RegionObserver.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/coprocessor/observer/Hbase_MasterObserver.java" />
+        <option value="$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/base/Hbase_Base.java" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/exception/CustomException.java" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/hdfs/HdfsBasic.java" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/hdfs/HdfsJavaApi.java" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/impl/HdfsClientImpl.java" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/impl/IHdfsClient.java" />
+        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/utils/HdfsUnit.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/entity/City.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/utils/Constant.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Hdfs.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Multi.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Json.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Basic.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Parameter.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Sort.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Split.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Basic_Job.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Hdfs_Job.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Json_Job.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Multi_Job.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Parameter_Job.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Sort_Job.java" />
+        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Split_Job.java" />
+        <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_1_From_Parallelize.scala" />
       </list>
     </option>
   </component>
@@ -137,57 +200,37 @@
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="liumm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkStreaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,12 +409,12 @@
       <workItem from="1532095181515" duration="1423000" />
       <workItem from="1532096803611" duration="2927000" />
       <workItem from="1532689283720" duration="5047000" />
-      <workItem from="1532740389734" duration="5509000" />
+      <workItem from="1532740389734" duration="7655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20570000" />
+    <option name="totallyTimeSpent" value="22716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,9 +447,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32965517" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37655172" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" weight="0.27724138" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26009694" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3875862" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" visible="true" weight="0.27724138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2956381" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -417,6 +460,38 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3875862" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24959612" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" weight="0.27724138" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49832216" weight="0.36689654" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32965517" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32965517" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.30452344" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41437802" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -434,7 +509,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
@@ -446,289 +521,408 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/CreateFiles.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#19#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_1_local_TextFile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#19#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/SparkCore_1_CreateRdd_1_From_Parallelize.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/SparkCore_1_CreateRdd_1_From_Parallelize.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../E_lib/apache-maven-3.5.2/conf/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="174" column="4" lean-forward="true" selection-start-line="174" selection-start-column="4" selection-end-line="174" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Implicit_5_Object.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_2_for.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_1_if_else.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0.jar!/org/apache/spark/SparkContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/SparkContext.scala" />
-    <entry file="file://$PROJECT_DIR$/SparkCore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kafka/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kafka/src/main/java/com/liumm/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hadoop-Learning.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HadoopLearning.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-streaming_2.11/2.0.0/spark-streaming_2.11-2.0.0.jar!/org/apache/spark/streaming/StreamingContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="283" column="43" selection-start-line="283" selection-start-column="43" selection-end-line="283" selection-end-column="43" />
-          <folding>
-            <element signature="e#12002#12003#0" expanded="true" />
-            <element signature="e#12070#12071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/BufferedWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0.jar!/org/apache/spark/log4j-defaults.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="66" lean-forward="true" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/SparkCore_1_CreateRdd_1_From_Parallelize.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_2_2_Hdfs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
-          <folding>
-            <element signature="e#19#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-streaming_2.11/2.0.0/spark-streaming_2.11-2.0.0-sources.jar!/org/apache/spark/streaming/StreamingContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="299" column="18" selection-start-line="299" selection-start-column="6" selection-end-line="299" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_2_1_Hdfs_Text.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="71" />
-          <folding>
-            <element signature="e#19#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_2_local_File.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#19#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_1_1_local_TextFile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#19#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/CreateFiles.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="26" column="104" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="104" />
-          <folding>
-            <element signature="e#19#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_4_Socket_RddInfo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <element signature="e#19#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="940" column="24" selection-start-line="940" selection-start-column="24" selection-end-line="940" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/resources/scriptFile.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/SocketService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+        <state relative-caret-position="23">
+          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="e#19#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_3_Socket_SparkIsClient.scala">
+    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/liumm/SparkStreaming_6_KafkaDirectStream.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
           <folding>
-            <element signature="e#19#52#0" expanded="true" />
+            <element signature="e#19#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/utils/SparkConf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreaming/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/coprocessor/observer/Hbase_MasterObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/coprocessor/observer/Hbase_RegionObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Scan_Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Tables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Namespace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/hbase/Hbase_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" column="84" lean-forward="true" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/scala/base/Hbase_Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/hdfs/HdfsJavaApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/impl/HdfsClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/impl/IHdfsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/scala/hdfs/HdfsBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/hbase/Hbase_Tables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/hbase/Hbase_Scan_Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/hbase/Hbase_Namespace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/hbase/Hbase_Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/base/Hbase_Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/coprocessor/observer/Hbase_MasterObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/coprocessor/observer/Hbase_RegionObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-659">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/hdfs/scala/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/liumm/hdfs/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/hdfs/HdfsBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/utils/HdfsUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/impl/IHdfsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/impl/HdfsClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/hdfs/HdfsJavaApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/entity/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/utils/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Hdfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Multi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Parameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Split.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Basic_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Hdfs_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Json_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Multi_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Parameter_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Sort_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/job/MapReduce_Split_Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_1_From_Parallelize.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
