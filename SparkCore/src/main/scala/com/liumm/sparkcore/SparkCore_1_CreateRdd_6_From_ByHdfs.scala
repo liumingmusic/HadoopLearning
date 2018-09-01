@@ -25,31 +25,34 @@ object SparkCore_1_CreateRdd_6_From_ByHdfs {
   def main(args: Array[String]): Unit = {
 
     val conf = new SparkConf().setAppName("SparkCore_1_CreateRdd_6_From_ByHdfs").setMaster("local")
+    //防止序列化器不存在
+    conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
 
     val sc = new SparkContext(conf)
 
     //hdfs创建rdd
-    val rdd1 = sc.textFile("hdfs://hdp01:8020/liumm.txt")
+    val rdd1 = sc.textFile("hdfs://hthx205:8020/apps/hbase/data/hbase.id")
     println("======================hdfs文件创建")
     println("textFile方法从hdfs文件创建RDD类型：" + rdd1 + ",默认分区数是：" + rdd1.partitions.length)
     rdd1.foreach(println(_))
 
-    val rdd2 = sc.textFile("hdfs://hdp01:8020/liumm.txt", 4)
+    val rdd2 = sc.textFile("hdfs://hthx205:8020/apps/hbase/data/hbase.id", 4)
     println("======================hdfs文件创建")
     println("textFile方法从hdfs文件创建RDD类型：" + rdd2 + ",默认分区数是：" + rdd2.partitions.length)
     rdd2.foreach(println(_))
 
     //整个目录创建
-    val rdd3 = sc.wholeTextFiles("hdfs://hdp01:8020/")
+    val rdd3 = sc.wholeTextFiles("hdfs://hthx205:8020/apps/hbase/data/")
     println("======================hdfs文件夹创建")
     println("wholeTextFiles方法从hdfs文件夹创建RDD类型：" + rdd3 + ",默认分区数是：" + rdd3.partitions.length)
     rdd3.foreach(println(_))
 
     //基于sequence创建
     val rdd4 = sc.makeRDD((1 to 10))
-    rdd4.saveAsObjectFile("hdfs://hdp01:8020/")
+    rdd4.saveAsObjectFile("hdfs://hthx205:8020/apps/hbase/data/hbase.version")
+    rdd4.foreach(println(_))
 
-    val rdd5 = sc.sequenceFile[NullWritable, BytesWritable]("hdfs://hdp01:8020/")
+    val rdd5 = sc.sequenceFile[NullWritable, BytesWritable]("hdfs://hthx205:8020/apps/hbase/data/hbase.version")
 
     println("=================基于sequenceFile创建")
 
@@ -76,7 +79,7 @@ object SparkCore_1_CreateRdd_6_From_ByHdfs {
     //基于Hbase创建
     val that = sc.hadoopConfiguration
     that.set("hbase.rpc.protection", "privacy")
-    that.set("hbase.zookeeper.quorum", "hdp01")
+    that.set("hbase.zookeeper.quorum", "hthx205:2181,hthx206:2181,hthx207:2181")
     that.set("hbase.zookeeper.property.clientPort", "2181")
     that.set("zookeeper.znode.parent", "/hbase-unsecure")
     that.set("hbase.rpc.timeout", "3000")
@@ -88,6 +91,7 @@ object SparkCore_1_CreateRdd_6_From_ByHdfs {
 
     if (!admin.tableExists(TableName.valueOf("i57_ndsa_result"))) {
       admin.createTable(new HTableDescriptor(TableName.valueOf("i57_ndsa_result")).addFamily(new HColumnDescriptor("cfn")))
+      println("i57_ndsa_result表创建成功")
     }
 
     //2、使用spark的saveHadoopData保存数据
@@ -97,7 +101,7 @@ object SparkCore_1_CreateRdd_6_From_ByHdfs {
     job.setOutputValueClass(classOf[Result])
     job.setOutputFormatClass(classOf[TableOutputFormat[ImmutableBytesWritable]])
     val rdd22 = sc.makeRDD(
-      Array(("r1", "cfn", "name", "liumm")).map(data => {
+      Array(("rowkey-5", "cfn", "name", "xinww")).map(data => {
         val put = new Put(Bytes.toBytes(data._1))
         put.addColumn(Bytes.toBytes(data._2), Bytes.toBytes(data._3), Bytes.toBytes(data._4))
         (new ImmutableBytesWritable, put)
@@ -110,13 +114,12 @@ object SparkCore_1_CreateRdd_6_From_ByHdfs {
     that.set(mapreduce.TableInputFormat.INPUT_TABLE, "i57_ndsa_result")
     that.set(mapreduce.TableInputFormat.SCAN, util.Base64.encodeBytes(ProtobufUtil.toScan(new Scan()).toByteArray))
     val rdd23 = sc.newAPIHadoopRDD(that, classOf[TableInputFormat], classOf[ImmutableBytesWritable], classOf[Result])
-    println("=====基于hbase数据库创建")
+    println("Spark读取Hbase数据")
     rdd23.foreach(x => {
       val result = x._2
       val v = Bytes.toString(result.getValue(Bytes.toBytes("cfn"), Bytes.toBytes("name")))
       println(v)
     })
-
   }
 
 }
