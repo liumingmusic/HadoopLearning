@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fbb4744-8af8-4772-9c4a-f908e21548f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_1_Transformation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/CustomAccumulator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_2_Control.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_3_Action.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_4_Broadcast.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_5_Accumulator.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_6_From_ByHdfs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_6_From_ByHdfs.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkCore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkCore/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Hbase/target/" />
     <ignored path="$PROJECT_DIR$/Kafka/target/" />
@@ -27,13 +31,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SparkCore_1_Transformation.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_1_Transformation.scala">
+      <file leaf-file-name="SparkCore_3_Action.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_3_Action.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="348" column="13" selection-start-line="348" selection-start-column="13" selection-end-line="348" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="212" column="57" lean-forward="true" selection-start-line="212" selection-start-column="57" selection-end-line="212" selection-end-column="57" />
               <folding>
-                <element signature="e#29#78#0" expanded="true" />
+                <element signature="e#29#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparkCore_4_Broadcast.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_4_Broadcast.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparkCore_5_Accumulator.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_5_Accumulator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+              <folding>
+                <element signature="e#29#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomAccumulator.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/CustomAccumulator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+              <folding>
+                <element signature="e#29#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +94,7 @@
       <find>kafka</find>
       <find>saveAsHadoopFile</find>
       <find>rdd_map</find>
+      <find>r</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,11 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/hdfs/HdfsJavaApi.java" />
-        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/impl/HdfsClientImpl.java" />
-        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/impl/IHdfsClient.java" />
-        <option value="$PROJECT_DIR$/Hdfs/src/main/java/com/c503/hdfs/utils/HdfsUnit.java" />
-        <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/entity/City.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/utils/Constant.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Hdfs.java" />
         <option value="$PROJECT_DIR$/MapReduce/src/main/java/com/c503/mr/mr/MapReduce_Multi.java" />
@@ -113,9 +146,14 @@
         <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_4_From_ByFile_4_log.scala" />
         <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_4_From_ByFile_5_AnyFileInTextFormat.scala" />
         <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_5_From_ByDir.scala" />
-        <option value="$PROJECT_DIR$/SparkCore/pom.xml" />
         <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_6_From_ByHdfs.scala" />
         <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_1_Transformation.scala" />
+        <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_2_Control.scala" />
+        <option value="$PROJECT_DIR$/SparkCore/pom.xml" />
+        <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_3_Action.scala" />
+        <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_4_Broadcast.scala" />
+        <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_5_Accumulator.scala" />
+        <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/CustomAccumulator.scala" />
       </list>
     </option>
   </component>
@@ -167,41 +205,6 @@
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
@@ -273,7 +276,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="log4j-de&#9;FILE&#9;jar:///Users/liuxm/E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0.jar!/org/apache/spark/log4j-defaults.properties" />
+    <property name="SearchEverywhereHistoryKey" value="saveAsAPIHadoop&#9;null&#9;null&#10;log4j-de&#9;FILE&#9;jar:///Users/liuxm/E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0.jar!/org/apache/spark/log4j-defaults.properties" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -317,53 +320,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkCore_1_Transformation">
-    <configuration name="SparkCore_1_CreateRdd_4_From_ByFile_3_cvs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.liumm.sparkcore.SparkCore_1_CreateRdd_4_From_ByFile_3_cvs" />
+  <component name="RunManager" selected="Application.SparkCore_5_Accumulator">
+    <configuration name="SparkCore_4_Broadcast" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.liumm.transform.SparkCore_4_Broadcast" />
       <module name="SparkCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liumm.sparkcore.*" />
+          <option name="PATTERN" value="com.liumm.transform.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SparkCore_1_CreateRdd_4_From_ByFile_5_AnyFileInTextFormat" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.liumm.sparkcore.SparkCore_1_CreateRdd_4_From_ByFile_5_AnyFileInTextFormat" />
-      <module name="SparkCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liumm.sparkcore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SparkCore_1_CreateRdd_5_From_ByDir" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.liumm.sparkcore.SparkCore_1_CreateRdd_5_From_ByDir" />
-      <module name="SparkCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liumm.sparkcore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SparkCore_1_CreateRdd_6_From_ByHdfs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.liumm.sparkcore.SparkCore_1_CreateRdd_6_From_ByHdfs" />
-      <module name="SparkCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liumm.sparkcore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SparkCore_1_Transformation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.liumm.transform.SparkCore_1_Transformation" />
+    <configuration name="SparkCore_5_Accumulator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.liumm.transform.SparkCore_5_Accumulator" />
       <module name="SparkCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -415,19 +385,13 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SparkCore_1_CreateRdd_4_From_ByFile_3_cvs" />
-      <item itemvalue="Application.SparkCore_1_CreateRdd_4_From_ByFile_5_AnyFileInTextFormat" />
-      <item itemvalue="Application.SparkCore_1_CreateRdd_5_From_ByDir" />
-      <item itemvalue="Application.SparkCore_1_CreateRdd_6_From_ByHdfs" />
-      <item itemvalue="Application.SparkCore_1_Transformation" />
+      <item itemvalue="Application.SparkCore_4_Broadcast" />
+      <item itemvalue="Application.SparkCore_5_Accumulator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SparkCore_1_Transformation" />
-        <item itemvalue="Application.SparkCore_1_CreateRdd_6_From_ByHdfs" />
-        <item itemvalue="Application.SparkCore_1_CreateRdd_5_From_ByDir" />
-        <item itemvalue="Application.SparkCore_1_CreateRdd_4_From_ByFile_5_AnyFileInTextFormat" />
-        <item itemvalue="Application.SparkCore_1_CreateRdd_4_From_ByFile_3_cvs" />
+        <item itemvalue="Application.SparkCore_5_Accumulator" />
+        <item itemvalue="Application.SparkCore_4_Broadcast" />
       </list>
     </recent_temporary>
   </component>
@@ -449,12 +413,12 @@
       <workItem from="1532740389734" duration="22410000" />
       <workItem from="1534559523272" duration="10394000" />
       <workItem from="1534761985323" duration="4416000" />
-      <workItem from="1535771371909" duration="13400000" />
+      <workItem from="1535771371909" duration="27855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65681000" />
+    <option name="totallyTimeSpent" value="80136000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,49 +434,49 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49832216" weight="0.36689654" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32965517" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503231" side_tool="true" weight="0.48965517" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.30452344" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.36413792" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32965517" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676898" weight="0.48965517" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4676898" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24959612" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49832216" visible="true" weight="0.36689654" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32965517" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.27310345" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676898" weight="0.32965517" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31340873" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.40965518" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.48413792" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24959612" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676898" weight="0.48965517" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676898" weight="0.32965517" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503231" side_tool="true" weight="0.48965517" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49832216" weight="0.36689654" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -520,7 +484,8 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.30452344" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.315832" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332796" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
@@ -528,9 +493,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,69 +551,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.0.0/spark-streaming-kafka-0-10_2.11-2.0.0-sources.jar!/org/apache/spark/streaming/kafka010/KafkaUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="123" column="22" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.0.0/spark-streaming-kafka-0-10_2.11-2.0.0-sources.jar!/org/apache/spark/streaming/kafka010/ConsumerStrategy.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="420" column="6" selection-start-line="420" selection-start-column="6" selection-end-line="420" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/kafka/kafka-clients/0.10.2.0/kafka-clients-0.10.2.0.jar!/org/apache/kafka/common/TopicPartition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/kafka/kafka-clients/0.10.2.0/kafka-clients-0.10.2.0-sources.jar!/org/apache/kafka/common/TopicPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0.jar!/org/apache/spark/rdd/RDD.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-streaming_2.11/2.0.0/spark-streaming_2.11-2.0.0-sources.jar!/org/apache/spark/streaming/dstream/DStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="624" column="28" selection-start-line="624" selection-start-column="17" selection-end-line="624" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kafka/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Kafka/src/main/java/com/c503/kafka/example/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -755,20 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_2_2_Hdfs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_2_1_Hdfs_Text.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_1_1_local_TextFile.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -846,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/base/Hbase_Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="80" column="58" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="80" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/sparkcore/SparkCore_1_CreateRdd_5_From_ByDir.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -888,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SparkCore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/Tuple2.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -919,20 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="693" column="6" selection-start-line="693" selection-start-column="6" selection-end-line="693" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="589" column="6" selection-start-line="589" selection-start-column="6" selection-end-line="589" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scala/src/main/scala/com/c503/scala/Clause_1_if_else.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -940,12 +799,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_2_Control.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="1418" column="6" selection-start-line="1418" selection-start-column="6" selection-end-line="1418" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreaming/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hdfs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="70" column="21" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_2_1_Hdfs_Text.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/java/com/c503/streaming/SparkStreaming_2_2_Hdfs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_1_Transformation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="348" column="13" selection-start-line="348" selection-start-column="13" selection-end-line="348" selection-end-column="13" />
+        <state relative-caret-position="185">
+          <caret line="329" column="29" lean-forward="true" selection-start-line="329" selection-start-column="29" selection-end-line="329" selection-end-column="29" />
           <folding>
             <element signature="e#29#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="252" column="52" lean-forward="true" selection-start-line="250" selection-start-column="16" selection-end-line="252" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="776" column="6" selection-start-line="776" selection-start-column="6" selection-end-line="776" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1008" column="23" selection-start-line="1008" selection-start-column="6" selection-end-line="1008" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/com/c503/hbase/base/Hbase_Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_3_Action.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="212" column="57" lean-forward="true" selection-start-line="212" selection-start-column="57" selection-end-line="212" selection-end-column="57" />
+          <folding>
+            <element signature="e#29#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_4_Broadcast.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/SparkCore_5_Accumulator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+          <folding>
+            <element signature="e#29#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/liumm/transform/CustomAccumulator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+          <folding>
+            <element signature="e#29#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
