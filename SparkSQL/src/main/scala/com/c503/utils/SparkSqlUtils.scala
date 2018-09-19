@@ -11,6 +11,8 @@ import org.apache.spark.sql.SparkSession
   */
 object SparkSqlUtils {
 
+  val wareHouse = "/Users/liuxm/A_study/idea_ws/HadoopLearning/SparkSQL/src/main/resources/warehouse"
+
   /**
     * 关闭日志消息
     *
@@ -43,7 +45,7 @@ object SparkSqlUtils {
     * @return
     */
   def newSparkSession(appName: String, isHive: Boolean = false) = {
-    val builder = SparkSession.builder().appName(appName).master("local")
+    val builder = SparkSession.builder().appName(appName).master("local").config("spark.sql.warehouse.dir", wareHouse)
     if (isHive) {
       builder.enableHiveSupport()
     }
