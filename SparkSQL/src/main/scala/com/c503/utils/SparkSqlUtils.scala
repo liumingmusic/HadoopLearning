@@ -1,7 +1,14 @@
 package com.c503.utils
 
+import java.io.{BufferedInputStream, BufferedReader, FileInputStream, InputStreamReader}
+import java.nio.file.Path
+
+import com.google.common.io.Resources
 import org.apache.log4j.{Level, Logger}
+import org.apache.mesos.Protos.Resource
 import org.apache.spark.sql.SparkSession
+
+import scala.io.Source
 
 /**
   * 描述 简单描述方法的作用
@@ -50,7 +57,24 @@ object SparkSqlUtils {
       builder.enableHiveSupport()
     }
     builder.getOrCreate()
-
   }
+
+  /**
+    * 读取资源文件内容
+    *
+    * @param sqlPath
+    * @return
+    */
+  def readSqlByPath(sqlPath: String) = {
+    val buf = new StringBuilder
+    val path = this.getPathByName(sqlPath)
+    val file = Source.fromFile(path)
+    for (line <- file.getLines) {
+      buf ++= line + "\n"
+    }
+    file.close
+    buf.toString()
+  }
+
 
 }
