@@ -38,11 +38,12 @@ object Spark_SQL_3 {
       "es.http.timeout" -> "10s",
       "es.scroll.size" -> "5000",
       "es.read.field.as.array.include" -> "",
-      "es.mapping.date.rich" -> "false"
+      "es.mapping.date.rich" -> "false",
+      "es.index.auto.create" -> "true"
     )
 
     //构建df
-    val df = sqlContext.read.format("org.elasticsearch.spark.sql").options(options).load("spark_es")
+    val df = sqlContext.read.format("es").options(options).load("spark_es")
 
     //df.select("name", "age").collect().foreach(println(_))
     //临时表
