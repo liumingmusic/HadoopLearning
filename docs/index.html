@@ -13,14 +13,12 @@
 </head>
 
 <body>
-<nav>
-    <a href="https://github.com/liumingmusic" target="_blank">GitHub</a>
-</nav>
 <div id="app">加载中...</div>
 <script>
     window.$docsify = {
         auto2top: true,
         loadSidebar: true,
+        loadNavbar: true,
         subMaxLevel: 3,
         name: 'HadoopLearning',
         coverpage: true,
@@ -29,14 +27,28 @@
             function (hook, vm) {
                 hook.beforeEach(function (html) {
                     var url = 'https://github.com/liumingmusic/HadoopLearning/tree/master/docs/' + vm.route.file;
-                    var editHtml = '[欢迎修正](' + url + ')\n';
+                    var editHtml = '<image src="_media/edit.png" style="width: 20px;vertical-align: middle;margin-top: -3px;margin-right: 5px"/> [欢迎修正](' + url + ')\n';
                     return editHtml
                         + html
                         + '\n\n----\n\n'
                         + '<a href="https://github.com/liumingmusic/" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by liumingmusic</a>'
                 })
             }
-        ]
+        ],
+        search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            paths: 'auto', // or 'auto'
+            // 支持本地化
+            placeholder: {
+                '/': '搜索'
+            },
+            // 支持本地化
+            noData: {
+                '/': '找不到结果'
+            },
+            // 搜索标题的最大程级, 1 - 6
+            depth: 6
+        }
     }
 </script>
 <script src="./lib/index.js"></script>
@@ -44,6 +56,10 @@
 <script src="./lib/prismjs/prism-bash.js"></script>
 <script src="./lib/prismjs/prism-java.js"></script>
 <script src="./lib/prismjs/prism-powershell.js"></script>
+<script src="./lib/plugins/search.js"></script>
+<script src="./lib/plugins/docsify-copy-code.min.js"></script>
+<script src="./lib/plugins/zoom-image.min.js"></script>
+
 </body>
 
 </html>

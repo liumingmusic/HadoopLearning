@@ -6,5 +6,5 @@
 * 完整的大数据组件代码
 * 相应的实战的项目
 
-[GitHub](https://github.com/QingWei-Li/docsify/)
-[Get Started](#HadoopLearning)
+[GitHub](https://github.com/liumingmusic/HadoopLearning/)
+[Get Started](#总概)
