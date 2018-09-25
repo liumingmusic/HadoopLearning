@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fbb4744-8af8-4772-9c4a-f908e21548f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/c503/core/WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkCore/src/main/scala/com/c503/core/FavTeacher.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkCore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkCore/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Hbase/target/" />
     <ignored path="$PROJECT_DIR$/Kafka/target/" />
@@ -51,14 +48,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="WordCount.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/c503/core/WordCount.scala">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FavTeacher.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/c503/core/FavTeacher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="56" />
+            <state relative-caret-position="508">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding>
-                <element signature="e#23#54#0" expanded="true" />
+                <element signature="e#23#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Kafka/src/main/java/com/c503/kafka/KafkaCallBack.java" />
-        <option value="$PROJECT_DIR$/Kafka/src/main/java/com/c503/kafka/KafkaProperties.java" />
         <option value="$PROJECT_DIR$/Kafka/src/main/java/com/c503/kafka/Producer.java" />
         <option value="$PROJECT_DIR$/Kafka/src/main/java/com/c503/kafka/Consumer.java" />
         <option value="$PROJECT_DIR$/Kafka/src/main/java/com/c503/kafka/KafkaConsumerProducerDemo.java" />
@@ -144,6 +139,8 @@
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/SparkCore/pom.xml" />
         <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/c503/core/WordCount.scala" />
+        <option value="$PROJECT_DIR$/SparkCore/src/main/resources/teacher.log" />
+        <option value="$PROJECT_DIR$/SparkCore/src/main/scala/com/c503/core/FavTeacher.scala" />
       </list>
     </option>
   </component>
@@ -203,6 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,13 +209,85 @@
               <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="c503" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="c503" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HadoopLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liumm" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +302,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -271,6 +342,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="FavTeacher" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.c503.core.FavTeacher" />
+      <module name="SparkCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.c503.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -312,6 +394,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FavTeacher" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -340,12 +427,14 @@
       <workItem from="1537365192981" duration="3642000" />
       <workItem from="1537595604046" duration="3241000" />
       <workItem from="1537599147132" duration="8056000" />
-      <workItem from="1537672708616" duration="7301000" />
+      <workItem from="1537672708616" duration="8482000" />
+      <workItem from="1537759294268" duration="6000" />
+      <workItem from="1537881141120" duration="3122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109017000" />
+    <option name="totallyTimeSpent" value="113326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,36 +450,36 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503231" side_tool="true" weight="0.48965517" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.4418417" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32956383" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.24959612" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49832216" weight="0.36689654" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32965517" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503231" side_tool="true" weight="0.48965517" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.4418417" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.6689655" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.5103448" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49676898" weight="0.2786207" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29402262" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14297253" />
       <window_info anchor="right" id="Bean Validation" order="1" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32956383" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24959612" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Ant Build" order="3" weight="0.24959612" />
@@ -468,7 +557,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
@@ -664,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="52" column="18" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <element signature="e#28#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="e#21#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,12 +787,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_media/edit.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/lib/plugins/search.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/_navbar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -745,10 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="n#style#0;n#image#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,16 +831,6 @@
           <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkCore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="172" column="29" lean-forward="true" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/resources/spark_core/spark_core.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SparkCore/src/main/resources/spark_core/spark_core.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -797,32 +860,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kafka/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hdfs/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SparkStreaming/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-62" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StageOnePractice/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/SparkCore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="172" column="29" lean-forward="true" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hbase/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/c503/core/WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="56" />
+        <state relative-caret-position="326">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/resources/teacher.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/TaskContextImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="117" column="42" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/InterruptibleIterator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/collection/immutable/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../E_lib/local_repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/immutable/List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="204" column="15" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkCore/src/main/scala/com/c503/core/FavTeacher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding>
-            <element signature="e#23#54#0" expanded="true" />
+            <element signature="e#23#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
