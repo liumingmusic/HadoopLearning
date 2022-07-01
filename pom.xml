@@ -32,7 +32,7 @@
         <hadoop.version>2.7.3</hadoop.version>
         <scala.suffix.version>2.11</scala.suffix.version>
         <scala.version>${scala.suffix.version}.8</scala.version>
-        <kafka.version>0.10.2.0</kafka.version>
+        <kafka.version>0.10.2.2</kafka.version>
         <jerkson.aid>jerkson_${scala.suffix.version}</jerkson.aid>
         <jerkson.version>0.6.9</jerkson.version>
         <gson.version>2.2.4</gson.version>
